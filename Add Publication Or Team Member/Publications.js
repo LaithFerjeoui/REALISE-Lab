@@ -588,4 +588,13 @@ export const DefaultPublications = [
       year: 2023,
       type: "Journals",
     },
+
+
+
+
+
+
+
+
+    // always add publications above this line
   ];

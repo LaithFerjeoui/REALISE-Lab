@@ -1,66 +1,19 @@
 import React from "react";
 import "tailwindcss/tailwind.css";
 import Layout from'@theme/Layout';
+import { members } from "../../Add Publication Or Team Member/TeamMembers";
 
 const mvp = [
   {
     name: 'Diego Elias Damasceno Costa',
     role: 'Professor',
-    imageUrl:
-      'img/diego-elias-damasceno-costa.jpg',
+    imageUrl:'Img/diego-elias-damasceno-costa.jpg',
     twitterUrl: 'https://twitter.com/DiegoEliasCosta',
     linkedinUrl: 'https://www.linkedin.com/in/diego-elias-costa/',
     details:"teamInfo/diego"
   },
 ]
-const people = [
 
-    {
-      name: 'Rachna Raj',
-      role: 'Software Engineering Masters student',
-      imageUrl:
-        'img/rachna-raj.jpg',
-      twitterUrl: '#',
-      linkedinUrl: 'https://www.linkedin.com/in/rachna-raj/',
-      details:"teamInfo/rd"
-    },
-    {
-        name: 'Genevieve Caumartin',
-        role: 'Software Engineering Masters student',
-        imageUrl:
-          'img/genevieve-caumartin.jpg',
-        twitterUrl: '#',
-        linkedinUrl: 'https://www.linkedin.com/in/cbgen/',
-        details:"teamInfo/a"
-    },
-    {
-      name: 'Zakaria Laib',
-      role: 'Software Engineering Masters student',
-      imageUrl:
-        'img/zakaria-laib.jpeg',
-      twitterUrl: '#',
-      linkedinUrl: 'https://www.linkedin.com/in/zakaria-laib-97b28222b/',
-      details:"/teamInfo/zak"
-    },
-    {
-      name: 'Mohamed Bilel Besbes',
-      role: 'Software Engineering Masters student',
-      imageUrl:
-        'img/mohamed-bilel-besbes.jpeg',
-      twitterUrl: '#',
-      linkedinUrl: 'https://www.linkedin.com/in/mohamed-bilel-besbes/',
-      details:"teamInfo/bilel"
-    },
-    {
-      name: 'Adam Al Assil',
-      role: 'Software Engineering Undergraduate student',
-      imageUrl:
-        'img/adam-al-assil.jpg',
-      twitterUrl: '#',
-      linkedinUrl: 'https://www.linkedin.com/in/adamalassil/',
-      details:"teamInfo/g"
-    },
-  ]
   
   export default function Example() {
     return (
@@ -123,7 +76,7 @@ const people = [
             role="list"
             className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 list-none"
           >
-            {people.map((person) => (
+            {members.map((person) => (
               
               <li key={person.name}>
                 <img className="aspect-[5/5] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" />
