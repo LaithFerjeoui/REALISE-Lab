@@ -4,8 +4,7 @@ import { GoDatabase } from "react-icons/go";
 import { LuPresentation } from "react-icons/lu";
 import { useState } from "react";
 import { FaQuoteLeft } from "react-icons/fa";
-import { DefaultPublications } from "./Publications";
-import Markdown from "markdown-to-jsx";
+import { DefaultPublications } from "../../Add Publication Or Team Member/Publications";
 
 const preDefinedText = "this a text";
 
@@ -13,7 +12,6 @@ export default function PublicationsIteration({ array, all }) {
   const [showTextAreas, setShowTextAreas] = useState(
     Array(DefaultPublications.length).fill(false)
   );
-
 
   // Function to toggle the text area for a specific publication
   const toggleTextArea = (index) => {
@@ -139,7 +137,7 @@ export default function PublicationsIteration({ array, all }) {
                   className="rounded-[7px] border border-gray-400 flex justify-center w-full"
                   rows={4}
                   cols={50}
-                  value={preDefinedText}
+                  value={convertToBibTeX(publication)}
                   readOnly
                 />
               )}
@@ -247,5 +245,4 @@ export default function PublicationsIteration({ array, all }) {
           ))}
     </div>
   );
-};
-
+}
