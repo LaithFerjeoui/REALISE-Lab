@@ -3,6 +3,7 @@ import "tailwindcss/tailwind.css";
 import Layout from "@theme/Layout";
 import PublicationsIteration from "../components/PublicationsIteration";
 
+
 const Example = () => {
   return (
     <Layout>
@@ -18,7 +19,7 @@ const Example = () => {
           </div>
 
 {/* LOGIC FOR ITERATION OVER THE PUBLICATIONS HERE */}
-          <PublicationsIteration/>
+          <PublicationsIteration />
         </div>
       </div>
     </Layout>

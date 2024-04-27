@@ -1,16 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaGithub, FaRegFilePdf } from "react-icons/fa";
 import { GoDatabase } from "react-icons/go";
 import { LuPresentation } from "react-icons/lu";
 import { useState } from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import { DefaultPublications } from "./Publications";
+import Markdown from "markdown-to-jsx";
+
 const preDefinedText = "this a text";
 
-const PublicationsIteration = ({ array, all }) => {
+export default function PublicationsIteration({ array, all }) {
   const [showTextAreas, setShowTextAreas] = useState(
     Array(DefaultPublications.length).fill(false)
   );
+
 
   // Function to toggle the text area for a specific publication
   const toggleTextArea = (index) => {
@@ -59,6 +62,7 @@ const PublicationsIteration = ({ array, all }) => {
 
   return (
     <div className="mx-auto mt-10 max-w-2xl border-t border-gray-200 pt-4 sm:mt-16  lg:mx-0 lg:max-w-none flex-col justfify-center items-center ">
+      {/* <Markdown>{publication}</Markdown> */}
       {all == false
         ? array.map((publication, index) => (
             <article
@@ -245,4 +249,3 @@ const PublicationsIteration = ({ array, all }) => {
   );
 };
 
-export default PublicationsIteration;
