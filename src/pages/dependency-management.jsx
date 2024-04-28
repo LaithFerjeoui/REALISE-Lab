@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import PublicationsIteration from "../components/PublicationsIteration";
-import {publications} from '../../Add Publication Or Team Member/ProjectsSuggestedPublications/Dependency-managementPublications'
 const projectDetail1 = () => {
   return (
     <Layout>
@@ -28,7 +27,10 @@ const projectDetail1 = () => {
           Related Publications:{" "}
         </span>
       </div>
-      <PublicationsIteration array={publications} all={false}/>
+      <div className=" px-64">
+        <PublicationsIteration project={"dependency-management"} all={false}/>
+      </div>
+      
     </Layout>
   );
 };

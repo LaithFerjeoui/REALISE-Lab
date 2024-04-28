@@ -10,6 +10,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Conferences",
+      project:"dependency-management"
     },
     {
       id: 2,
@@ -22,6 +23,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Conferences",
+      project:"performance-engineering"
     },
     {
       id: 3,
@@ -37,6 +39,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Conferences",
+      project:"dependency-management"
     },
     {
       id: 4,
@@ -51,6 +54,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Conferences",
+      project:""
     },
     {
       id: 5,
@@ -65,6 +69,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Conferences",
+      project:""
     },
     {
       id: 6,
@@ -79,6 +84,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Conferences",
+      project:""
     },
     {
       id: 7,
@@ -94,6 +100,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Conferences",
+      project:""
     },
     {
       id: 8,
@@ -106,6 +113,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Conferences",
+      project:""
     },
     {
       id: 9,
@@ -119,6 +127,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Conferences",
+      project:""
     },
     {
       id: 10,
@@ -132,6 +141,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Journals",
+      project:""
     },
     {
       id: 11,
@@ -147,6 +157,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Journals",
+      project:""
     },
     {
       id: 12,
@@ -160,6 +171,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Journals",
+      project:""
     },
     {
       id: 13,
@@ -174,6 +186,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Journals",
+      project:""
     },
     {
       id: 14,
@@ -189,6 +202,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Journals",
+      project:""
     },
     {
       id: 15,
@@ -203,6 +217,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Journals",
+      project:""
     },
     {
       id: 16,
@@ -218,6 +233,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Journals",
+      project:""
     },
     {
       id: 17,
@@ -232,6 +248,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Journals",
+      project:""
     },
     {
       id: 18,
@@ -245,6 +262,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Journals",
+      project:""
     },
     {
       id: 19,
@@ -259,6 +277,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Journals",
+      project:""
     },
     {
       id: 20,
@@ -273,6 +292,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Journals",
+      project:""
     },
     {
       id: 21,
@@ -286,6 +306,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Journals",
+      project:""
     },
     {
       id: 22,
@@ -298,6 +319,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Conferences",
+      project:""
     },
     {
       id: 23,
@@ -311,6 +333,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Conferences",
+      project:""
     },
     {
       id: 24,
@@ -325,6 +348,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2024,
       type: "Conferences",
+      project:""
     },
     {
       id: 25,
@@ -341,6 +365,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Conferences",
+      project:""
     },
     {
       id: 26,
@@ -355,6 +380,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Conferences",
+      project:""
     },
     {
       id: 27,
@@ -369,6 +395,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Conferences",
+      project:"dependency-management"
     },
     {
       id: 28,
@@ -383,6 +410,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Conferences",
+      project:"performance-engineering"
     },
     {
       id: 29,
@@ -398,6 +426,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Conferences",
+      project:"performance-engineering"
     },
     {
       id: 30,
@@ -413,6 +442,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Conferences",
+      project:""
     },
     {
       id: 31,
@@ -427,6 +457,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Conferences",
+      project:""
     },
     {
       id: 32,
@@ -440,6 +471,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Conferences",
+      project:""
     },
     {
       id: 33,
@@ -454,6 +486,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Conferences",
+      project:""
     },
     {
       id: 34,
@@ -468,6 +501,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Conferences",
+      project:""
     },
     {
       id: 35,
@@ -483,6 +517,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Conferences",
+      project:""
     },
     {
       id: 36,
@@ -499,6 +534,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Journals",
+      project:""
     },
     {
       id: 37,
@@ -514,6 +550,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Journals",
+      project:""
     },
     {
       id: 38,
@@ -527,6 +564,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Journals",
+      project:""
     },
     {
       id: 39,
@@ -542,6 +580,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Journals",
+      project:""
     },
     {
       id: 40,
@@ -557,6 +596,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Journals",
+      project:""
     },
     {
       id: 41,
@@ -573,6 +613,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Journals",
+      project:""
     },
     {
       id: 42,
@@ -587,6 +628,7 @@ export const DefaultPublications = [
       presentationLink: "",
       year: 2023,
       type: "Journals",
+      project:""
     },
 
 

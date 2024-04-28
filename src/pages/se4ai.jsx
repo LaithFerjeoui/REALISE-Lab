@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import PublicationsIteration from "../components/PublicationsIteration";
-import {publications} from '../../Add Publication Or Team Member/ProjectsSuggestedPublications/Se4aiPublications'
 
 const projectDetail1 = () => {
   return (
@@ -29,8 +28,9 @@ const projectDetail1 = () => {
           Related Publications:{" "}
         </span>
       </div>
-      
-      <PublicationsIteration array={publications} all={false}/>
+      <div className=" px-64">
+      <PublicationsIteration project={"se4ai"} all={false}/>
+      </div>
     </Layout>
   );
 };
