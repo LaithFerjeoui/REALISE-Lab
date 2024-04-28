@@ -49,7 +49,7 @@ export default function PublicationsIteration({ array, all }) {
   const convertToBibTeX = (publication) => {
     const authors = publication.authors
       .split(", ")
-      .map((author) => `{${author.trim()}}`)
+      .map((author) => `${author.trim()}`)
       .join(", ");
     return `@inproceedings{${publication.title.replace(/[^a-zA-Z0-9]/g, "")},
     title={${publication.title}},
@@ -216,7 +216,24 @@ export default function PublicationsIteration({ array, all }) {
                               <span>Presentation </span>
                             </a>
                           ) : null}
-
+                          {pub.videoLink ? (
+                            <a
+                              className="flex justify-center items-center hover:scale-105 duration-300"
+                              href={pub.presentationLink}
+                            >
+                              <LuPresentation size={20} />{" "}
+                              <span>Video </span>
+                            </a>
+                          ) : null}
+                          {pub.replicationPackageLink ? (
+                            <a
+                              className="flex justify-center items-center hover:scale-105 duration-300"
+                              href={pub.presentationLink}
+                            >
+                              <GoDatabase size={20} />{" "}
+                              <span>Replication </span>
+                            </a>
+                          ) : null}
                           {/* Toggle Text Area button */}
                           <div
                             className="flex justify-center items-center hover:scale-105 duration-300 text-[#868fa9] cursor-pointer"
