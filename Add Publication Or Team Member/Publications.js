@@ -432,7 +432,7 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Conferences",
-      project:""
+      project:"se4ai"
     },
     {
       id: 27,
