@@ -5,9 +5,11 @@ export const DefaultPublications = [
       venue: "MSR 2024 Mining Challenge, 2024",
       authors: "Rachna Raj, Diego Elias Costa",
       pdfPathHref: "https://arxiv.org/pdf/2311.07786.pdf",
-      githubLink: "",
-      datasetLink: "",
-      presentationLink: "",
+      githubLink: "https://arxiv.org/pdf/2311.07786.pdf",
+      datasetLink: "https://arxiv.org/pdf/2311.07786.pdf",
+      presentationLink: "https://arxiv.org/pdf/2311.07786.pdf",
+      replicationPackageLink: "https://arxiv.org/pdf/2311.07786.pdf",
+      videoLink: "https://arxiv.org/pdf/2311.07786.pdf",
       year: 2024,
       type: "Conferences",
       project:"dependency-management"
@@ -21,6 +23,8 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
       year: 2024,
       type: "Conferences",
       project:"performance-engineering"
@@ -37,8 +41,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
-      type: "Conferences",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2023,
+      type: "Journals",
       project:"dependency-management"
     },
     {
@@ -52,8 +58,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
-      type: "Conferences",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2023,
+      type: "Journals",
       project:""
     },
     {
@@ -67,7 +75,9 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2023,
       type: "Conferences",
       project:""
     },
@@ -82,7 +92,9 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2023,
       type: "Conferences",
       project:""
     },
@@ -98,8 +110,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
-      type: "Conferences",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2023,
+      type: "Journals",
       project:""
     },
     {
@@ -111,8 +125,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
-      type: "Conferences",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2023,
+      type: "Journals",
       project:""
     },
     {
@@ -125,8 +141,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
-      type: "Conferences",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2023,
+      type: "Journals",
       project:""
     },
     {
@@ -139,8 +157,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
-      type: "Journals",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2023,
+      type: "Conferences",
       project:""
     },
     {
@@ -155,7 +175,9 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2022,
       type: "Journals",
       project:""
     },
@@ -169,7 +191,9 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2022,
       type: "Journals",
       project:""
     },
@@ -184,8 +208,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
-      type: "Journals",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2022,
+      type: "Conferences",
       project:""
     },
     {
@@ -200,8 +226,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
-      type: "Journals",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2022,
+      type: "Conferences",
       project:""
     },
     {
@@ -215,8 +243,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
-      type: "Journals",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2022,
+      type: "Conferences",
       project:""
     },
     {
@@ -231,7 +261,9 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "https://zenodo.org/records/4892300",
       presentationLink: "",
-      year: 2024,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2022,
       type: "Journals",
       project:""
     },
@@ -246,7 +278,9 @@ export const DefaultPublications = [
       githubLink: "https://github.com/ServerlessLoadTesting/ReplicationPackage",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2022,
       type: "Journals",
       project:""
     },
@@ -260,7 +294,9 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2022,
       type: "Journals",
       project:""
     },
@@ -275,7 +311,9 @@ export const DefaultPublications = [
       githubLink: "https://zenodo.org/records/5003443",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2021,
       type: "Journals",
       project:""
     },
@@ -290,7 +328,9 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2021,
       type: "Journals",
       project:""
     },
@@ -304,8 +344,10 @@ export const DefaultPublications = [
       githubLink: "https://zenodo.org/records/4701640",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
-      type: "Journals",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2021,
+      type: "Conferences",
       project:""
     },
     {
@@ -317,8 +359,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
-      type: "Conferences",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2021,
+      type: "Journals",
       project:""
     },
     {
@@ -331,7 +375,9 @@ export const DefaultPublications = [
       githubLink: "https://zenodo.org/records/4734080",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2021,
       type: "Conferences",
       project:""
     },
@@ -346,7 +392,9 @@ export const DefaultPublications = [
       githubLink: "https://zenodo.org/records/4437290",
       datasetLink: "",
       presentationLink: "",
-      year: 2024,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2021,
       type: "Conferences",
       project:""
     },
@@ -363,7 +411,9 @@ export const DefaultPublications = [
       githubLink: "https://zenodo.org/records/4606679",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2021,
       type: "Conferences",
       project:""
     },
@@ -378,7 +428,9 @@ export const DefaultPublications = [
       githubLink: "https://zenodo.org/records/4158611",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2021,
       type: "Conferences",
       project:""
     },
@@ -393,7 +445,9 @@ export const DefaultPublications = [
       githubLink: "https://zenodo.org/records/3871931",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2021,
       type: "Conferences",
       project:"dependency-management"
     },
@@ -408,8 +462,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
-      type: "Conferences",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2021,
+      type: "Journals",
       project:"performance-engineering"
     },
     {
@@ -424,8 +480,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
-      type: "Conferences",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2020,
+      type: "Journals",
       project:"performance-engineering"
     },
     {
@@ -440,7 +498,9 @@ export const DefaultPublications = [
       githubLink: "https://zenodo.org/records/3610714",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2020,
       type: "Conferences",
       project:""
     },
@@ -455,7 +515,9 @@ export const DefaultPublications = [
       githubLink: "https://zenodo.org/records/3610714",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2019,
       type: "Conferences",
       project:""
     },
@@ -469,8 +531,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
-      type: "Conferences",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2019,
+      type: "Thesis",
       project:""
     },
     {
@@ -484,7 +548,9 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2019,
       type: "Conferences",
       project:""
     },
@@ -499,7 +565,9 @@ export const DefaultPublications = [
       githubLink: "https://einhornstyle.gitlab.io/nldsl/",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2019,
       type: "Conferences",
       project:""
     },
@@ -515,7 +583,9 @@ export const DefaultPublications = [
       githubLink: "https://github.com/DiegoEliasCosta/collectionSwitch",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2018,
       type: "Conferences",
       project:""
     },
@@ -532,8 +602,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
-      type: "Journals",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2018,
+      type: "Conferences",
       project:""
     },
     {
@@ -548,7 +620,9 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2018,
       type: "Journals",
       project:""
     },
@@ -562,8 +636,10 @@ export const DefaultPublications = [
       githubLink: "https://github.com/DiegoEliasCosta/CollectionsBench",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
-      type: "Journals",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2017,
+      type: "Conferences",
       project:""
     },
     {
@@ -578,8 +654,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
-      type: "Journals",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2016,
+      type: "Conferences",
       project:""
     },
     {
@@ -594,8 +672,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
-      type: "Journals",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2015,
+      type: "Conferences",
       project:""
     },
     {
@@ -611,8 +691,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
-      type: "Journals",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2015,
+      type: "Conferences",
       project:""
     },
     {
@@ -626,8 +708,10 @@ export const DefaultPublications = [
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      year: 2023,
-      type: "Journals",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2015,
+      type: "Conferences",
       project:""
     },
 

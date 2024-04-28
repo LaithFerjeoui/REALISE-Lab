@@ -6,8 +6,6 @@ import { useState } from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import { DefaultPublications } from "../../Add Publication Or Team Member/Publications";
 
-const preDefinedText = "this a text";
-
 export default function PublicationsIteration({ project, all }) {
   const [showTextAreas, setShowTextAreas] = useState(
     Array(DefaultPublications.length).fill(false)
@@ -48,7 +46,7 @@ export default function PublicationsIteration({ project, all }) {
   const convertToBibTeX = (publication) => {
     const authors = publication.authors
       .split(", ")
-      .map((author) => `{${author.trim()}}`)
+      .map((author) => `${author.trim()}`)
       .join(", ");
     switch (publication.type) {
       case "Journals":
@@ -66,7 +64,7 @@ export default function PublicationsIteration({ project, all }) {
                   author={${authors}},
                   booktitle={${publication.venue}}
               }`;
-      case "Theses":
+      case "Thesis":
         return `@phdthesis{${publication.title.replace(/[^a-zA-Z0-9]/g, "")},
                   title={${publication.title}},
                   author={${authors}},
