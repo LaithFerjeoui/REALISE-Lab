@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import PublicationsIteration from "../components/PublicationsIteration";
-import {publications} from '../../Add Publication Or Team Member/ProjectsSuggestedPublications/Performance-engineeringPublications'
 
 const projectDetail1 = () => {
   return (
@@ -29,7 +28,9 @@ const projectDetail1 = () => {
           Related Publications:{" "}
         </span>
       </div>
-      <PublicationsIteration array={publications} all={false}/>
+      <div className=" px-64">
+      <PublicationsIteration project={"performance-engineering"} all={false}/>
+      </div>
     </Layout>
   );
 };

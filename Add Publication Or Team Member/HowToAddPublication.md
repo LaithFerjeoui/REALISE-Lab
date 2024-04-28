@@ -16,6 +16,7 @@ To add a publication, follow these steps:
      presentationLink: "",
      year: 2024,
      type: "Conferences",
+     project:"dependency-management"
    },
 
 3. Finnaly save the file and there you have it! (you can copy paste the object and edit it)
