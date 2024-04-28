@@ -66,7 +66,7 @@ export default function PublicationsIteration({ project, all }) {
                   author={${authors}},
                   booktitle={${publication.venue}}
               }`;
-      case "Theses":
+      case "Thesis":
         return `@phdthesis{${publication.title.replace(/[^a-zA-Z0-9]/g, "")},
                   title={${publication.title}},
                   author={${authors}},
@@ -136,6 +136,8 @@ export default function PublicationsIteration({ project, all }) {
                           <a
                             href={pub.pdfPathHref}
                             className="flex justify-center items-center hover:scale-105 duration-300"
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <FaRegFilePdf size={20} /> <span>PDF</span>
                           </a>
@@ -144,6 +146,8 @@ export default function PublicationsIteration({ project, all }) {
                           <a
                             className="flex justify-center items-center hover:scale-105 duration-300"
                             href={pub.datasetLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <GoDatabase size={20} /> <span>Database</span>
                           </a>
@@ -152,6 +156,8 @@ export default function PublicationsIteration({ project, all }) {
                           <a
                             className="flex justify-center items-center hover:scale-105 duration-300"
                             href={pub.githubLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <FaGithub size={20} /> <span>Github</span>
                           </a>
@@ -160,6 +166,8 @@ export default function PublicationsIteration({ project, all }) {
                           <a
                             className="flex justify-center items-center hover:scale-105 duration-300"
                             href={pub.presentationLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <LuPresentation size={20} />{" "}
                             <span>Presentation </span>
@@ -209,6 +217,8 @@ export default function PublicationsIteration({ project, all }) {
                       <article
                         key={innerIndex}
                         className="flex max-w-4xl flex-col items-start justify-between mx-auto mb-10"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <div className="flex items-center gap-x-4 text-xs">
                           <time
@@ -236,6 +246,8 @@ export default function PublicationsIteration({ project, all }) {
                             <a
                               href={pub.pdfPathHref}
                               className="flex justify-center items-center hover:scale-105 duration-300"
+                              target="_blank"
+                              rel="noopener noreferrer"
                             >
                               <FaRegFilePdf size={20} /> <span>PDF</span>
                             </a>
@@ -243,6 +255,8 @@ export default function PublicationsIteration({ project, all }) {
                           {pub.datasetLink ? (
                             <a
                               className="flex justify-center items-center hover:scale-105 duration-300"
+                              target="_blank"
+                              rel="noopener noreferrer"
                               href={pub.datasetLink}
                             >
                               <GoDatabase size={20} /> <span>Database</span>
@@ -251,6 +265,8 @@ export default function PublicationsIteration({ project, all }) {
                           {pub.githubLink ? (
                             <a
                               className="flex justify-center items-center hover:scale-105 duration-300"
+                              target="_blank"
+                              rel="noopener noreferrer"
                               href={pub.githubLink}
                             >
                               <FaGithub size={20} /> <span>Github</span>
@@ -259,6 +275,8 @@ export default function PublicationsIteration({ project, all }) {
                           {pub.presentationLink ? (
                             <a
                               className="flex justify-center items-center hover:scale-105 duration-300"
+                              target="_blank"
+                              rel="noopener noreferrer"
                               href={pub.presentationLink}
                             >
                               <LuPresentation size={20} />{" "}
@@ -268,6 +286,8 @@ export default function PublicationsIteration({ project, all }) {
                           {pub.videoLink ? (
                             <a
                               className="flex justify-center items-center hover:scale-105 duration-300"
+                              target="_blank"
+                              rel="noopener noreferrer"
                               href={pub.presentationLink}
                             >
                               <LuPresentation size={20} />{" "}
@@ -277,6 +297,8 @@ export default function PublicationsIteration({ project, all }) {
                           {pub.replicationPackageLink ? (
                             <a
                               className="flex justify-center items-center hover:scale-105 duration-300"
+                              target="_blank"
+                              rel="noopener noreferrer"
                               href={pub.presentationLink}
                             >
                               <GoDatabase size={20} />{" "}
