@@ -188,7 +188,7 @@ export default function PublicationsIteration({ project, all }) {
                         rel="noopener noreferrer"
                       >
                         <GoDatabase size={20} />{" "}
-                        <span>Presentation </span>
+                        <span>Replication package </span>
                       </a>
                     )}
                     {/* Toggle Text Area button */}
