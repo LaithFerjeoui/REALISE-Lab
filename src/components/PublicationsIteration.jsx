@@ -91,7 +91,7 @@ export default function PublicationsIteration({ project, all }) {
     <div className="mx-auto mt-10 max-w-2xl border-t border-gray-200 pt-4 sm:mt-16  lg:mx-0 lg:max-w-none flex-col justfify-center items-center">
       {ChosenPublication.map((publication, index) => (
         <div key={index}>
-          <div className="flex justify-center w-full shadow-2xl mb-3">
+          <div className="flex justify-start w-full  mb-3">
             <span className="text-3xl font-bold tracking-tight text-gray-900 gradient mb-5">
               {publication.year}
             </span>
