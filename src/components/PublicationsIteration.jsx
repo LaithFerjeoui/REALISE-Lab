@@ -132,6 +132,8 @@ export default function PublicationsIteration({ project, all }) {
                       <a
                         href={pub.pdfPathHref}
                         className="flex justify-center items-center hover:scale-105 duration-300"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <FaRegFilePdf size={20} /> <span>PDF</span>
                       </a>
@@ -140,6 +142,8 @@ export default function PublicationsIteration({ project, all }) {
                       <a
                         className="flex justify-center items-center hover:scale-105 duration-300"
                         href={pub.datasetLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <GoDatabase size={20} /> <span>Database</span>
                       </a>
@@ -148,6 +152,8 @@ export default function PublicationsIteration({ project, all }) {
                       <a
                         className="flex justify-center items-center hover:scale-105 duration-300"
                         href={pub.githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <FaGithub size={20} /> <span>Github</span>
                       </a>
@@ -156,12 +162,35 @@ export default function PublicationsIteration({ project, all }) {
                       <a
                         className="flex justify-center items-center hover:scale-105 duration-300"
                         href={pub.presentationLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <LuPresentation size={20} />{" "}
                         <span>Presentation </span>
                       </a>
                     )}
-  
+                    {pub.videoLink && (
+                      <a
+                        className="flex justify-center items-center hover:scale-105 duration-300"
+                        href={pub.videoLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <LuPresentation size={20} />{" "}
+                        <span>Video </span>
+                      </a>
+                    )}
+                    {pub.replicationPackageLink && (
+                      <a
+                        className="flex justify-center items-center hover:scale-105 duration-300"
+                        href={pub.replicationPackageLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <GoDatabase size={20} />{" "}
+                        <span>Replication package </span>
+                      </a>
+                    )}
                     {/* Toggle Text Area button */}
                     <div
                       className="flex justify-center items-center hover:scale-105 duration-300 text-[#868fa9] cursor-pointer"

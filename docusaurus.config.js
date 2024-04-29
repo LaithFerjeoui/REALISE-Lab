@@ -10,7 +10,7 @@ import tailwindPlugin from "./plugins/tailwind-config.js";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Exploring the Frontiers of Technology:",
+  title: "REALISE Lab",
   tagline: "Our Lab's Journey",
   favicon: 'img/logo.png',
 

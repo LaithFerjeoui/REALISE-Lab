@@ -1,21 +1,19 @@
 export const DefaultPublications = [
     {
-      id: 1,
       title: "The role of library versions in Developer-ChatGPT conversations",
       venue: "MSR 2024 Mining Challenge, 2024",
       authors: "Rachna Raj, Diego Elias Costa",
       pdfPathHref: "https://arxiv.org/pdf/2311.07786.pdf",
-      githubLink: "https://arxiv.org/pdf/2311.07786.pdf",
-      datasetLink: "https://arxiv.org/pdf/2311.07786.pdf",
-      presentationLink: "https://arxiv.org/pdf/2311.07786.pdf",
-      replicationPackageLink: "https://arxiv.org/pdf/2311.07786.pdf",
-      videoLink: "https://arxiv.org/pdf/2311.07786.pdf",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
       year: 2024,
       type: "Conferences",
       project:"dependency-management"
     },
     {
-      id: 2,
       title: "Predicting the Impact of Crashes Across Release Channels",
       venue: "MSR 2024 Industrial Track, 2024",
       authors: "Suhaib Mujahid, Diego Elias Costa, Marco Castelluccio",
@@ -30,7 +28,6 @@ export const DefaultPublications = [
       project:"performance-engineering"
     },
     {
-      id: 3,
       title:
         "SE4AI: A Training Program Considering Technical, Social, and Professional Aspects of AI-based Software Systems",
       venue:
@@ -48,7 +45,6 @@ export const DefaultPublications = [
       project:"dependency-management"
     },
     {
-      id: 4,
       title:
         "Understanding the Helpfulness of Stale Bot for Pull-based Development",
       venue: "TOSEM journal, 2023",
@@ -65,7 +61,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 5,
       title:
         "Where to Go Now? Finding Alternatives for Declining Packages in the npm Ecosystem",
       venue:
@@ -82,7 +77,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 6,
       title: "An Empirical Study on Bugs Inside PyTorch: A Replication Study",
       venue:
         "ICSME'23: International Conference on Software Maintenance and Evolution",
@@ -99,7 +93,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 7,
       title:
         "Empirical analysis of security-related code reviews in npm packages",
       venue: "JSS journal, 2023",
@@ -117,7 +110,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 8,
       title: "Dependency Update Strategies and Package Characteristics",
       venue: "TOSEM journal, 2023",
       authors: "Abbas Jafari, Diego Elias Costa, Rabe Abdalkareem, Emad Shihab",
@@ -132,7 +124,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 9,
       title: "Empirical analysis of security vulnerabilities in Python packages",
       venue: "EMSE journal, 2023",
       authors: "Mahmoud Alfadel, Diego Elias Costa, Emad Shihab",
@@ -148,7 +139,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 10,
       title: "Diversity Awareness in Software Engineering Participant Research",
       venue: "ICSE SEIS track, 2023",
       authors: "Riya Dutta, Diego Elias Costa, Tanja Tajmel, Emad Shihab",
@@ -164,7 +154,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 11,
       title:
         "Can Ensembling Pre-processing Algorithms Lead to Better Machine Learning Fairness?",
       venue: "IEEE Computer, 2022",
@@ -182,7 +171,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 12,
       title: "On the Discoverability of npm Vulnerabilities in Node.js Projects",
       venue:
         "ACM Transactions on Software Engineering and Methodology (TOSEM), 2022",
@@ -198,7 +186,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 13,
       title:
         "Achievement Unlocked: A Case Study on Gamifying DevOps Practices in Industry",
       venue:
@@ -215,7 +202,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 14,
       title:
         "Not All Dependencies are Equal: An Empirical Study on Production Dependencies in NPM",
       venue:
@@ -233,7 +219,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 15,
       title:
         "Open Source Software: An Approach to Controlling Usage and Risk in Application Ecosystems",
       venue:
@@ -250,7 +235,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 16,
       title:
         "On Wasted Contributions: Understanding the Dynamics of Contributor-Abandoned Pull Requests",
       venue:
@@ -268,7 +252,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 17,
       title:
         "A case study on the stability of performance tests for serverless applications",
       venue: "Journal of Software and Systems (JSS)",
@@ -285,7 +268,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 18,
       title:
         "Toward the Personalization of Biceps Fatigue Detection Model For Gym Activity: An Approach to Utilize Wearables’ Data From The Crowd",
       venue: "Sensors Journal: Applications of Body Worn Sensors and Wearables",
@@ -301,7 +283,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 19,
       title:
         "Towards Using Package Centrality Trend to IdentifyPackages in Decline",
       venue: "IEEE Transactions on Engineering Management",
@@ -318,7 +299,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 20,
       title:
         "Human Activity Recognition: A Comparative Study to Assess the Contribution Level of Accelerometer, ECG, and PPG Signals",
       venue:
@@ -335,7 +315,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 21,
       title: "Dependency Smells in JavaScript Projects",
       venue: "IEEE Transactions on Software Engineering (TSE)",
       authors:
@@ -351,7 +330,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 22,
       title: "How do developers use the Java Stream API?",
       venue: "TOSEM journal, 2023",
       authors: "D. Costa, R. Raj",
@@ -366,7 +344,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 23,
       title:
         "A Comparison of Natural Language Understanding Platforms for Chatbots in Software Engineering",
       venue: "IEEE Transactions on Software Engineering (TSE) ",
@@ -382,7 +359,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 24,
       title: "On the Use of Dependabot Security Pull Requests",
       venue:
         "In MSR'21: in International Conference on Mining Software Repositories",
@@ -399,7 +375,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 25,
       title:
         "How Effective is Continuous Integration in Indicating Single-Statement Bugs?",
       venue:
@@ -418,7 +393,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 26,
       title: "Empirical Analysis of Security Vulnerabilities in Python Packages",
       venue:
         "ICSME: IEEE International Conference on Software Analysis, Evolution and Reengineering",
@@ -432,10 +406,9 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Conferences",
-      project:""
+      project:"se4ai"
     },
     {
-      id: 27,
       title:
         "Breaking Type-Safety in Go: An Empirical Study on the Usage of the unsafe Package",
       venue: "IEEE Transactions on Software Engineering (TSE)",
@@ -452,7 +425,6 @@ export const DefaultPublications = [
       project:"dependency-management"
     },
     {
-      id: 28,
       title:
         "On the Impact of Biceps Muscle Fatigue in Human Activity Recognition?",
       venue:
@@ -469,7 +441,6 @@ export const DefaultPublications = [
       project:"performance-engineering"
     },
     {
-      id: 29,
       title:
         "Memory and resource leak defects and their repairs in Java projects",
       venue: "Empirical Software Engineering journal (EMSE), vol. 25, 678–718",
@@ -487,7 +458,6 @@ export const DefaultPublications = [
       project:"performance-engineering"
     },
     {
-      id: 30,
       title: "Challenges in Chatbot Development: A Study of Stack Overflow Posts",
       venue:
         "MSR'20: *International Conference on Mining Software Repositories*, 12 pages, 174-185, 2020",
@@ -505,7 +475,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 31,
       title:
         "What’s Wrong With My Benchmark Results? Studying Bad Practices in JMH Benchmarks",
       venue: "IEEE Transactions on Software Engineering (TSE)",
@@ -522,7 +491,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 32,
       title: "Benchmark-driven Software Performance Optimization",
       venue: "Ph.D. thesis. 2019",
       authors: "Diego Costa",
@@ -538,7 +506,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 33,
       title: "Enhancing Commit Graphs with Visual Runtime Clues",
       venue: "VISSOFT'19: Working Conference on Software Visualization",
       authors:
@@ -555,7 +522,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 34,
       title: "Agile construction of data science DSLs (tool demo)",
       venue:
         "TOSEGPCE'19: ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences",
@@ -572,7 +538,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 35,
       title:
         "CollectionSwitch: a framework for efficient and dynamic collection selection",
       venue:
@@ -590,7 +555,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 36,
       title:
         "Memory and resource leak defects in Java Projects: an empirical study",
       venue:
@@ -609,7 +573,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 37,
       title: "Heterogeneous subgraph features for information networks",
       venue:
         "TOSEM journal, 2023GRADES-NDA '18: ACM SIGMOD Joint International Workshop on Graph Data Management Experiences & Systems and Network Data Analytics",
@@ -627,7 +590,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 38,
       title: "Empirical Study of Usage and Performance of Java Collections",
       venue:
         "ICPE'17: ACM/SPEC on International Conference on Performance Engineering",
@@ -643,7 +605,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 39,
       title:
         "ORPLocator: Identifying Read Points of Configuration Options via Static Analysis",
       venue:
@@ -661,7 +622,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 40,
       title:
         "Characterization of Dynamic Memory Allocations in Real-World Applications: An Experimental Study",
       venue:
@@ -679,7 +639,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 41,
       title:
         "A Systematic Differential Analysis for Fast and Robust Detection of Software Aging",
       venue:
@@ -698,7 +657,6 @@ export const DefaultPublications = [
       project:""
     },
     {
-      id: 42,
       title:
         "Experimental and theoretical analyses of memory allocation algorithm",
       venue: "SAC'14: ACM Symposium on Applied Computing",
@@ -714,13 +672,4 @@ export const DefaultPublications = [
       type: "Conferences",
       project:""
     },
-
-
-
-
-
-
-
-
-    // always add publications above this line
   ];
