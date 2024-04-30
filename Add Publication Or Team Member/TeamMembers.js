@@ -32,7 +32,7 @@ export const members = [
       role: 'Software Engineering Masters student',
       imageUrl:
         'Img/mohamed-bilel-besbes.jpeg',
-      twitterUrl: '#',
+      twitterUrl: '',
       linkedinUrl: 'https://www.linkedin.com/in/mohamed-bilel-besbes/',
       details:"teamInfo/bilel"
     },

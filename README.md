@@ -17,7 +17,6 @@ To add a publication, follow these steps:
 
 ```
    {
-     id: 1,
      title: "The role of library versions in Developer-ChatGPT conversations",
      venue: "MSR 2024 Mining Challenge, 2024",
      authors: "Rachna Raj, Diego Elias Costa",
@@ -32,20 +31,21 @@ To add a publication, follow these steps:
 ```
 The values that `type` can have are `Conferences`, `Journals`, or `Thesis`.
 The values that `project` can have are `dependency-management`, `performance-engineering`, `se4ai`, or empty.
-A publication entry having a non-empty `project` value will be displayed under both the `/publications` and the `/<project-name>` pages, there's no need to add two entries in two separate places for a given publication
+A publication entry having a non-empty `project` value will be displayed under both the `/publications` and the `/<project-name>` pages, there's no need to add two entries in two separate places for a given publication.
+If a given link does not exist, provide an empty string to its associated attribute. For example, if a given publication does not have a presentation link, the value corresponding to `presentationLink` is `""`
 3. In case the publications' resources will be placed directly in the project's file system instead of placing its link (the `pdfPathHref` value for example), make sure to place the given file under `static/publications`
-4. Save the `publication.js` file and there you have it
+4. Save the `publication.js` file
 
 # How to Add a Team Member
 
 To add a team member to your project, follow these steps:
 
-1. **Add the Team Member's Image to the static/Img Folder:**
-   Place the team member's image in the `static/Img` folder.
+1. **Add the Team Member's Image to the static/img Folder:**
+   Place the team member's image in the `static/img` folder.
 
    
 2. **Create a Markdown File for the Team Member's Details:**
-   Create a Markdown file (e.g., TeamMemberDetails.md) inside the `src/pages/teamInfo` folder for the team member's details.
+   Create a Markdown file (e.g., `TeamMemberDetails.md`) inside the `src/pages/teamInfo` folder for the team member's details. Please find the MD syntax documentation [here](https://www.markdownguide.org/basic-syntax/). You can cutomize your page as you see fit.
 
 
 3. **Open the `TeamMember.js` File:**
@@ -59,9 +59,9 @@ To add a team member to your project, follow these steps:
    {
      name: 'Team Member Name',
      role: 'Team Member Role',
-     imageUrl: 'Img/TeamMemberImage.jpg',
-     twitterUrl: 'URL to Team Member Twitter profile (optional)',
-     linkedinUrl: 'URL to Team Member LinkedIn profile (optional)',
+     imageUrl: 'Img/TeamMemberImage.jpg (can be left empty to display default photo)',
+     twitterUrl: 'URL to Team Member Twitter profile',
+     linkedinUrl: 'URL to Team Member LinkedIn profile',
      details: 'teamInfo/TeamMemberDetails.md'
    },
 ```
@@ -73,3 +73,23 @@ Save all changes.
 6. **Verify the Addition:**
 After completing these steps, the new team member should be added to the team list on the website with the specified details and image.
 
+## How to add a partner
+1. **(Optional) Add partner logo picture**
+Add the logo image under `static/img`. Note that you can put an image link from the internet instead of having the image in the project file system.
+
+2. **Add partner details**
+In `src/pages/partners.js`, add an object in the partners array following the following syntax:
+```
+    {
+      id: 1,
+      name: 'Mozilla organization',
+      collaboration_topics: 'performance engineering',
+      imageUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1200px-Firefox_logo%2C_2019.svg.png'
+    }
+```
+Make sure to increment the `id` attribute.
+
+3. **Save the changes**
+
+Make sure to save the changes
