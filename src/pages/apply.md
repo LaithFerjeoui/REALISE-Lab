@@ -33,7 +33,7 @@ If you are interested in joining my research group, please contact [diego.costa@
 - Unofficial transcripts
 - (Optional) Sample of your papers (if you have any)
 
-## Important Tips:
+## Important Tips
 
 - Make sure to show in your email that you are actually interested in our work. Generic application emails (especially those that are addressed to multiple professors!) **will be ignored**.
 - Take a look at the [Concordia University website](https://www.concordia.ca/gradstudies/future-students.html) for information on graduate admissions, tuitions, scholarships, and the programs.

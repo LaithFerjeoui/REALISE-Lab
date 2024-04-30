@@ -11,7 +11,7 @@ For collaborations, applications, and other inquiries, reach out on the followin
 
 ## Locations
 
-You can visit us in our lab at the following address:
+You can visit us in our lab at the following address: 12th floor, 2155 Guy St, Montreal, Quebec H3H 2L9
 
 <div>
   <iframe
@@ -22,6 +22,6 @@ You can visit us in our lab at the following address:
     scrolling="no"
     marginheight="0"
     marginwidth="0"
-    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Malet%20St,%20London%20WC1E%207HU,%20United%20Kingdom&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11186.758568435436!2d-73.5801319!3d45.4961942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91b6f412ec709%3A0x891462d1c02f0076!2sConcordia%20University%20ER%20Building!5e0!3m2!1sen!2sca!4v1714514703495!5m2!1sen!2sca">
   </iframe>
 </div>

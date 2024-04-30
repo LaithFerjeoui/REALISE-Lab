@@ -1,7 +1,7 @@
 import React from "react";
 import "tailwindcss/tailwind.css";
 import Layout from "@theme/Layout";
-import { members } from "../../Add Publication Or Team Member/TeamMembers";
+import { members } from "../../content/TeamMembers";
 
 const mvp = [
   {

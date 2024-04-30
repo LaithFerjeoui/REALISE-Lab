@@ -4,7 +4,7 @@ import { GoDatabase } from "react-icons/go";
 import { LuPresentation } from "react-icons/lu";
 import { useState } from "react";
 import { FaQuoteLeft } from "react-icons/fa";
-import { DefaultPublications } from "../../Add Publication Or Team Member/Publications";
+import { DefaultPublications } from "../../content/Publications";
 
 export default function PublicationsIteration({ project, all }) {
   const [showTextAreas, setShowTextAreas] = useState(

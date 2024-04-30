@@ -12,7 +12,7 @@ npm run serve
 
 To add a publication, follow these steps:
 
-1. Open the file `publication.js` under `Add Publication Or Team Member`.
+1. Open the file `publication.js` under `content`.
 2. Add an object like the following example:
 
 ```
@@ -53,7 +53,7 @@ To add a team member to your project, follow these steps:
 
 
 4. **Add a New Object to the `members` Array:**
-   Add a new object to the `members` array in `TeamMember.js` under `Add Publication Or Team Member` with the following fields:
+   Add a new object to the `members` array in `TeamMember.js` under `content` with the following fields:
 
 ```
    {
@@ -73,22 +73,20 @@ Save all changes.
 6. **Verify the Addition:**
 After completing these steps, the new team member should be added to the team list on the website with the specified details and image.
 
-## How to add a partner
+# How to add a partner
 1. **(Optional) Add partner logo picture**
-Add the logo image under `static/img`. Note that you can put an image link from the internet instead of having the image in the project file system.
+Add the logo image under `static/img`. Note that you can put an image link from the internet instead of having the image in the project file system. The image width:height ratio has to be 5:2 to fit in a presentable way. Also, make sure to have white background removed for esthetic purposes.
 
 2. **Add partner details**
-In `src/pages/partners.js`, add an object in the partners array following the following syntax:
+In `content/Partners.js`, add an object in the partners array following this example:
 ```
     {
-      id: 1,
-      name: 'Mozilla organization',
-      collaboration_topics: 'performance engineering',
-      imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1200px-Firefox_logo%2C_2019.svg.png'
-    }
+      name: 'FRQ - Nature et technologies',
+      collaboration_topics: 'performance engineering, dependency management, SE4AI',
+      imagePath: 'Img/frqnt-logo.png',
+      link: 'https://frq.gouv.qc.ca/nature-et-technologies/'
+    },
 ```
-Make sure to increment the `id` attribute.
 
 3. **Save the changes**
 
