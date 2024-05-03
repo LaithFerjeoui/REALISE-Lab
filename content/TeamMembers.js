@@ -9,7 +9,7 @@ export const members = [
   },
   {
     name: 'Rachna Raj',
-    role: 'PhD Student',
+    role: 'Masters student',
     imageUrl:
       'Img/rachna-raj.jpg',
     twitterUrl: '#',
@@ -18,7 +18,7 @@ export const members = [
   },
   {
     name: 'Genevieve Caumartin',
-    role: 'PhD Student',
+    role: 'Masters student',
     imageUrl:
       'Img/genevieve-caumartin.jpg',
     twitterUrl: '#',
@@ -27,7 +27,7 @@ export const members = [
   },
   {
     name: 'Zakaria Laib',
-    role: 'PhD Student',
+    role: 'Masters student',
     imageUrl:
       'Img/zakaria-laib.jpeg',
     twitterUrl: '#',
@@ -36,7 +36,7 @@ export const members = [
   },
   {
     name: 'Mohamed Bilel Besbes',
-    role: 'PhD Student',
+    role: 'Masters Student',
     imageUrl:
       'Img/mohamed-bilel-besbes.jpeg',
     twitterUrl: '',
@@ -45,7 +45,7 @@ export const members = [
   },
   {
     name: 'Adam Al Assil',
-    role: 'Alumni',
+    role: 'Undergraduate student',
     imageUrl:
       'Img/adam-al-assil.jpg',
     twitterUrl: '#',

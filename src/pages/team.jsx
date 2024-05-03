@@ -41,7 +41,7 @@ export default function Example() {
           >
             {groupedMembers.map((group) => (
               <div key={group.role} className="mb-8">
-                <h2 className="text-2xl font-bold my-12">{group.role}</h2>
+                <h2 className="text-2xl font-bold my-12">{group.role}s</h2>
                 <div className="flex w-full gap-8 flex-wrap">
                   {group.members.map((person) => (
                     <div
