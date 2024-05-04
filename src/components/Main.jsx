@@ -3,6 +3,7 @@ import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import Tweet from "../components/Tweet";
 import { IoIosReturnRight } from "react-icons/io";
 import { news } from "../../content/HomeNews";
+import { FaNewspaper } from "react-icons/fa";
 export default function Example() {
   return (
     <Layout>
@@ -43,19 +44,23 @@ export default function Example() {
           </div>
           {news.map((item, index) => (
             <div className="my-4 relative pb-5" key={index}>
-              <h2>{item.title}</h2>
+              <div className="flex ">
+                <FaNewspaper size={25} className="pt-2"/>
+                <h2>{item.title}</h2>
+              </div>
+
               <p>{item.description}</p>
               <p>{item.content}</p>
               <div className="absolute -bottom-1 right-3">
-              <button
-                type="button"
-                className="rounded bg-indigo-50 px-2 py-1 text-sm font-semibold text-indigo-400 shadow-sm hover:bg-indigo-100 border-0 flex justify-end items-center"
-              >
-                Go to News Page
-                <IoIosReturnRight  size={20}/>
-              </button>
+                <a
+                  href={item.href}
+                  type="button"
+                  className="rounded bg-indigo-50 px-2 py-1 text-sm font-semibold text-indigo-400 shadow-sm hover:bg-indigo-100 border-0 flex justify-end items-center"
+                >
+                  Go to News Page
+                  <IoIosReturnRight size={20} />
+                </a>
               </div>
-              
             </div>
           ))}
         </div>
