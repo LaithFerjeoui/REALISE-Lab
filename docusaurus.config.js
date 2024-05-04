@@ -148,13 +148,8 @@ const config = {
             title: "Social Media",
             items: [
               {
-                label: "LinkedIn",
-                href: "https://github.com/ayonious/console-table-printer",
-                
-              },
-              {
-                label: "Facebook",
-                href: "https://www.npmjs.com/package/console-table-printer",
+                label: "Twitter",
+                href: "https://twitter.com/diegoeliascosta?lang=en",
               },
             ],
           },

@@ -12,7 +12,7 @@ export default function Example() {
         <div className="flex flex-col justify-center items-center pt-12">
           <img className="w-[150px]" src="img/logo.png" alt="REALISE" />
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl gradient px-36 text-center">
-            REsearch on AnaLytics and Intelligence for Software Engineering lab
+            REALISE
           </h1>
         </div>
       </div>
