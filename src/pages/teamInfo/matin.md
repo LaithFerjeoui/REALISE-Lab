@@ -2,7 +2,7 @@
 title: Example
 ---
 
-## Genevieve Caumartin
+## Matin Koohjani
 
 Software Engineering Masters student
 
@@ -15,4 +15,4 @@ hi i am background
 - [Twitter](#)
 - [LinkedIn](#)
 
-![Top down view of walnut card tray with embedded magnets and card groove.](../../../static/img/genevieve-caumartin.jpg)
+![Top down view of walnut card tray with embedded magnets and card groove.](../../../static/img/matin-koohjani.jpeg)

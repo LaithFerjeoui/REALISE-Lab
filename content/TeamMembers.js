@@ -23,7 +23,7 @@ export const members = [
       'Img/genevieve-caumartin.jpg',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/cbgen/',
-    details: "teamInfo/a"
+    details: "teamInfo/g"
   },
   {
     name: 'Zakaria Laib',
@@ -44,12 +44,30 @@ export const members = [
     details: "teamInfo/bilel"
   },
   {
+    name: 'Matin Koohjani',
+    role: 'Masters student',
+    imageUrl:
+      'Img/matin-koohjani.jpeg',
+    twitterUrl: '',
+    linkedinUrl: 'https://ir.linkedin.com/in/matin-koohjani-a6096719a',
+    details: "teamInfo/matin"
+  },
+  {
     name: 'Adam Al Assil',
     role: 'Undergraduate student',
     imageUrl:
       'Img/adam-al-assil.jpg',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/adamalassil/',
-    details: "teamInfo/g"
+    details: "teamInfo/a"
+  },
+  {
+    name: 'Yasmine Drissi',
+    role: 'Undergraduate student',
+    imageUrl:
+      'Img/yasmine-drissi.jpeg',
+    twitterUrl: '',
+    linkedinUrl: 'https://ca.linkedin.com/in/yasmine-drissi-24043127a',
+    details: "teamInfo/yasmine"
   },
 ]

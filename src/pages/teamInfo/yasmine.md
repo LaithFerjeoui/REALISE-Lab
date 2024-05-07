@@ -2,9 +2,9 @@
 title: Example
 ---
 
-## Genevieve Caumartin
+## Yasmine Drissi
 
-Software Engineering Masters student
+Software Engineering Undergraduate student
 
 >this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote  this the quote 
 
@@ -15,4 +15,4 @@ hi i am background
 - [Twitter](#)
 - [LinkedIn](#)
 
-![Top down view of walnut card tray with embedded magnets and card groove.](../../../static/img/genevieve-caumartin.jpg)
+![Top down view of walnut card tray with embedded magnets and card groove.](../../../static/img/yasmine-drissi.jpeg)
