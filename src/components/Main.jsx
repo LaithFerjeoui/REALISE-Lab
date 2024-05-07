@@ -2,6 +2,7 @@ import Layout from "@theme/Layout";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import Tweet from "../components/Tweet";
 import { IoIosReturnRight } from "react-icons/io";
+import PartnersMainPage from "./NewsOnHomePage";
 import { news } from "../../content/HomeNews";
 import { FaNewspaper } from "react-icons/fa";
 export default function Example() {
@@ -50,7 +51,6 @@ export default function Example() {
               </div>
 
               <p>{item.description}</p>
-              <p>{item.content}</p>
               <div className="absolute -bottom-1 right-3">
                 <a
                   href={item.href}
@@ -64,6 +64,10 @@ export default function Example() {
             </div>
           ))}
         </div>
+        <span className="flex justify-center font-bold text-lg bg-white relative mx-auto px-4 w-fit z-50 rounded-lg text-gray-900">
+            <h1>Our partners</h1>
+        </span>
+        <PartnersMainPage />
       </div>
     </Layout>
   );

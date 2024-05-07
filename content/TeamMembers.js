@@ -36,7 +36,7 @@ export const members = [
   },
   {
     name: 'Mohamed Bilel Besbes',
-    role: 'Masters Student',
+    role: 'Masters student',
     imageUrl:
       'Img/mohamed-bilel-besbes.jpeg',
     twitterUrl: '',

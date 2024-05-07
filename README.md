@@ -91,3 +91,45 @@ In `content/Partners.js`, add an object in the partners array following this exa
 3. **Save the changes**
 
 Make sure to save the changes
+
+# How to Add a News Page
+1. Write the MD/MDX file of the news. The following is a basic example :
+
+---
+slug: url-slug
+title: POST TITLE
+tags: [example-tag-1, example-tag-2]
+---
+```
+HERE GOES THE SUMMARY OF THE POST THAT IS SUPPOSED TO SHOW AS THE PREVIEW
+
+USE A `<!--` `truncate` `-->` COMMENT TO LIMIT BLOG POST SIZE IN THE LIST VIEW
+
+<!--truncate-->
+
+HERE GOES THE CONTENT OF THE POST
+```
+
+2. Place the file under `blog`
+
+# How to Add a News entry to the main page
+
+1. Make sure to have added the post as described earlier
+
+2. Under `content/HomeNews.js`, in the given array, add an entry similar to this one :
+
+```
+    {
+        title: 'This is an example news preview',
+        description: 'You should really read this post',
+        href:"<href>"    
+    },
+```
+
+# How to Add an event
+
+The events page is written as an MD file under `src/pages/events.md` so it can be structure using the according syntax (no JS arrays usage).
+
+# How to add a web page
+
+Under `src/pages`, add the correspondant MD of JSX file with the adequate content and a web page with the path having the same name as the created file will be added to the website once changes are oushed to a production setting.

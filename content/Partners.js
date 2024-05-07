@@ -11,5 +11,10 @@ export const partners = [
       imagePath: 'Img/frqnt-logo.png',
       link: 'https://frq.gouv.qc.ca/nature-et-technologies/'
     },
-  
+    {
+      name: 'Gina Cody School of Eng & CS',
+      collaboration_topics: 'performance engineering, dependency management, SE4AI',
+      imagePath: 'Img/concordia-logo.png',
+      link: 'https://www.concordia.ca/ginacody.html'
+    },
 ];

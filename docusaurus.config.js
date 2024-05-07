@@ -100,8 +100,18 @@ const config = {
              position: "left",
            },
            {
+            to: "/partners",
+             label: "Partners",
+             position: "left",
+           },
+           {
             to: "/blog",
              label: "News",
+             position: "left",
+           },
+           {
+            to: "/events",
+             label: "Events",
              position: "left",
            },
            {
