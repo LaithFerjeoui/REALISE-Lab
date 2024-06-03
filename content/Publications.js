@@ -3,7 +3,7 @@ export const DefaultPublications = [
       title: "The role of library versions in Developer-ChatGPT conversations",
       venue: "MSR 2024 Mining Challenge, 2024",
       authors: "Rachna Raj, Diego Elias Costa",
-      pdfPathHref: "https://arxiv.org/pdf/2311.07786.pdf",
+      pdfPathHref: "https://arxiv.org/pdf/2401.16340",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -17,7 +17,7 @@ export const DefaultPublications = [
       title: "Predicting the Impact of Crashes Across Release Channels",
       venue: "MSR 2024 Industrial Track, 2024",
       authors: "Suhaib Mujahid, Diego Elias Costa, Marco Castelluccio",
-      pdfPathHref: "https://arxiv.org/abs/2401.13667",
+      pdfPathHref: "https://arxiv.org/pdf/2401.13667",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -34,7 +34,7 @@ export const DefaultPublications = [
         " IEEE Software journal, Software Engineering Educating and Training, 2023",
       authors:
         "Ahmad Abdellatif, Gita Ghiasi, Diego Elias Costa, Tanja Tajmel, Emad Shihab",
-      pdfPathHref: "https://ieeexplore.ieee.org/abstract/document/10274712",
+      pdfPathHref: "publications/Training-Program-Considering-Technical-Social-and-Professional-Aspects-of-AI-Based-Software-Systems.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -50,7 +50,7 @@ export const DefaultPublications = [
       venue: "TOSEM journal, 2023",
       authors:
         " SayedHassan Khatoonabadi, Diego Elias Costa, Suhaib Mujahid, Emad Shihab",
-      pdfPathHref: "https://arxiv.org/abs/2305.18150",
+      pdfPathHref: "https://arxiv.org/pdf/2305.18150",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -99,7 +99,7 @@ export const DefaultPublications = [
       authors:
         "Mahmoud Alfadel, Nicholas Alexandre Nagy, Diego Costa, Rabe Abdalkareem, Emad Shihab",
       pdfPathHref:
-        "https://www.sciencedirect.com/science/article/abs/pii/S0164121223001474",
+        "publications/Empirical-analysis-of-security-related-code-reviews-in-npm-packages.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -143,7 +143,7 @@ export const DefaultPublications = [
       venue: "ICSE SEIS track, 2023",
       authors: "Riya Dutta, Diego Elias Costa, Tanja Tajmel, Emad Shihab",
       pdfPathHref:
-        "https://www.researchgate.net/publication/367822157_Diversity_Awareness_in_Software_Engineering_Participant_Research",
+        "https://arxiv.org/pdf/2302.00042",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -175,7 +175,7 @@ export const DefaultPublications = [
       venue:
         "ACM Transactions on Software Engineering and Methodology (TOSEM), 2022",
       authors: "Mahmoud Alfadel, Diego Elias Costa, Emad Shihab, Bram Adams.",
-      pdfPathHref: "https://dl.acm.org/doi/10.1145/3571848",
+      pdfPathHref: "publications/On-the-Discoverability-of-npm-Vulnerabilities-in-Node-js-Projects.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -224,7 +224,7 @@ export const DefaultPublications = [
       venue:
         "SPLC'22: International Systems and Software Product Line Conference, 2022",
       authors: "Stan Zajdel, Diego Elias Costa, Hafedh Mili",
-      pdfPathHref: "https://arxiv.org/abs/2206.10358",
+      pdfPathHref: "https://arxiv.org/pdf/2206.10358",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -241,7 +241,7 @@ export const DefaultPublications = [
         "ACM Transactions on Software Engineering and Methodology (TOSEM), 2022",
       authors:
         "SayedHassan Khatoonabadi, Diego Elias Costa, Rabe Abdalkareem, Emad Shihab",
-      pdfPathHref: "https://arxiv.org/abs/2110.15447",
+      pdfPathHref: "https://arxiv.org/pdf/2110.15447",
       githubLink: "",
       datasetLink: "https://zenodo.org/records/4892300",
       presentationLink: "",
@@ -257,7 +257,7 @@ export const DefaultPublications = [
       venue: "Journal of Software and Systems (JSS)",
       authors:
         "Simon Eismann, Diego Elias Costa, Lizhi Liao, Cor-Paul Bezemer, Weiyi Shang, Andre van Hoorn, Samuel Kounev",
-      pdfPathHref: "https://arxiv.org/abs/2107.13320",
+      pdfPathHref: "https://arxiv.org/pdf/2107.13320",
       githubLink: "https://github.com/ServerlessLoadTesting/ReplicationPackage",
       datasetLink: "",
       presentationLink: "",
@@ -272,7 +272,7 @@ export const DefaultPublications = [
         "Toward the Personalization of Biceps Fatigue Detection Model For Gym Activity: An Approach to Utilize Wearables’ Data From The Crowd",
       venue: "Sensors Journal: Applications of Body Worn Sensors and Wearables",
       authors: "Mohamed Elshafei, Diego Elias Costa, and Emad Shihab",
-      pdfPathHref: "https://www.mdpi.com/1424-8220/22/4/1454",
+      pdfPathHref: "publications/Toward-the-Personalization-of-Biceps-Fatigue-Detection-Model-For-Gym-Activity.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -284,13 +284,13 @@ export const DefaultPublications = [
     },
     {
       title:
-        "Towards Using Package Centrality Trend to IdentifyPackages in Decline",
+        "Towards Using Package Centrality Trend to Identify Packages in Decline",
       venue: "IEEE Transactions on Engineering Management",
       authors:
         "Suhaib Mujahid, Diego Elias Costa, Rabe Abdalkareem, Emad Shihab, Bram Adams, Aymen Saied",
-      pdfPathHref: "https://arxiv.org/abs/2107.10168",
-      githubLink: "https://zenodo.org/records/5003443",
-      datasetLink: "",
+      pdfPathHref: "https://arxiv.org/pdf/2107.10168",
+      githubLink: "",
+      datasetLink: "https://zenodo.org/records/5003443",
       presentationLink: "",
       replicationPackageLink: "",
       videoLink: "",
@@ -304,7 +304,7 @@ export const DefaultPublications = [
       venue:
         "Sensors Journal: Sensors Technology and Machine Learning for Human Activity Recognition",
       authors: "Mahsa Sadat Afzali Arani, Diego Elias Costa , Emad Shihab",
-      pdfPathHref: "https://www.mdpi.com/1424-8220/21/21/6997",
+      pdfPathHref: "publications/Human-Activity-Recognition-A-Comparative-Study-to-Assess-the-Contribution-Level-of-Accelerometer.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -319,11 +319,11 @@ export const DefaultPublications = [
       venue: "IEEE Transactions on Software Engineering (TSE)",
       authors:
         "Abbas Jafari, Diego Elias Costa, Rabe Abdalkareem, Emad Shihab, and Nikolaos Tsantalis",
-      pdfPathHref: "https://arxiv.org/abs/2010.14573",
-      githubLink: "https://zenodo.org/records/4701640",
+      pdfPathHref: "https://arxiv.org/pdf/2010.14573",
+      githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      replicationPackageLink: "",
+      replicationPackageLink: "https://zenodo.org/records/4701640",
       videoLink: "",
       year: 2021,
       type: "Conferences",
@@ -333,7 +333,7 @@ export const DefaultPublications = [
       title: "How do developers use the Java Stream API?",
       venue: "TOSEM journal, 2023",
       authors: "D. Costa, R. Raj",
-      pdfPathHref: "https://arxiv.org/abs/2305.18150",
+      pdfPathHref: "publications/How-do-developers-use-the-Java-Stream-API.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -348,9 +348,9 @@ export const DefaultPublications = [
         "A Comparison of Natural Language Understanding Platforms for Chatbots in Software Engineering",
       venue: "IEEE Transactions on Software Engineering (TSE) ",
       authors: "Ahmad Abdellatif, Khaled Badran, Diego Costa, and Emad Shihab",
-      pdfPathHref: "https://arxiv.org/abs/2305.18150",
-      githubLink: "https://zenodo.org/records/4734080",
-      datasetLink: "",
+      pdfPathHref: "https://arxiv.org/pdf/2012.02640",
+      githubLink: "",
+      datasetLink: "https://zenodo.org/records/4734080",
       presentationLink: "",
       replicationPackageLink: "",
       videoLink: "",
@@ -364,9 +364,9 @@ export const DefaultPublications = [
         "In MSR'21: in International Conference on Mining Software Repositories",
       authors: "Mahmoud Alfadel, Diego Elias Costa, Emad Shihab",
       pdfPathHref:
-        "https://www.researchgate.net/publication/349641251_On_the_Use_of_Dependabot_Security_Pull_Requests",
-      githubLink: "https://zenodo.org/records/4437290",
-      datasetLink: "",
+        "publications/On-the-Use-of-Dependabot-Security-Pull-Requests.pdf",
+      githubLink: "",
+      datasetLink: "https://zenodo.org/records/4437290",
       presentationLink: "",
       replicationPackageLink: "",
       videoLink: "",
@@ -382,11 +382,11 @@ export const DefaultPublications = [
       authors:
         "Jasmine Latendresse, Rabe Abdalkareem, Diego Elias Costa, Emad Shihab",
       pdfPathHref:
-        "https://www.researchgate.net/publication/349895921_How_Effective_is_Continuous_Integration_in_Indicating_Single-Statement_Bugs",
-      githubLink: "https://zenodo.org/records/4606679",
+        "publications/How-Effective-is-Continuous-Integration-in-Indicating-Single-Statement-Bugs.pdf",
+      githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      replicationPackageLink: "",
+      replicationPackageLink: "https://zenodo.org/records/4606679",
       videoLink: "",
       year: 2021,
       type: "Conferences",
@@ -398,9 +398,9 @@ export const DefaultPublications = [
         "ICSME: IEEE International Conference on Software Analysis, Evolution and Reengineering",
       authors: "Mahmoud Alfadel, Diego Elias Costa, Emad Shihab",
       pdfPathHref:
-        "https://www.researchgate.net/publication/348392851_Empirical_Analysis_of_Security_Vulnerabilities_in_Python_Packages",
-      githubLink: "https://zenodo.org/records/4158611",
-      datasetLink: "",
+        "https://diegoeliascosta.github.io/papers/Alfadel_EMSE2023.pdf",
+      githubLink: "",
+      datasetLink: "https://zenodo.org/records/4158611",
       presentationLink: "",
       replicationPackageLink: "",
       videoLink: "",
@@ -414,11 +414,11 @@ export const DefaultPublications = [
       venue: "IEEE Transactions on Software Engineering (TSE)",
       authors: "Diego Costa, Suhaib Mujahid, Rabe Abdalkareem, and Emad Shihab",
       pdfPathHref:
-        "https://www.researchgate.net/publication/348973245_Breaking_Type-Safety_in_Go_An_Empirical_Study_on_the_Usage_of_the_unsafe_Package",
-      githubLink: "https://zenodo.org/records/3871931",
+        "https://arxiv.org/pdf/2006.09973",
+      githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      replicationPackageLink: "",
+      replicationPackageLink: "https://zenodo.org/records/3871931",
       videoLink: "",
       year: 2021,
       type: "Conferences",
@@ -426,11 +426,11 @@ export const DefaultPublications = [
     },
     {
       title:
-        "On the Impact of Biceps Muscle Fatigue in Human Activity Recognition?",
+        "On the Impact of Biceps Muscle Fatigue in Human Activity Recognition",
       venue:
         "Sensors Journal: Physical Human Activity Recognition Using Wearable Sensors",
       authors: "Mohamed Elshafei, Diego Costa, Emad Shihab",
-      pdfPathHref: "https://www.mdpi.com/1424-8220/21/4/1070",
+      pdfPathHref: "publications/On-the-Impact-of-Biceps-Muscle-Fatigue-in-Human-Activity-Recognition.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -447,7 +447,7 @@ export const DefaultPublications = [
       authors:
         "Mohammad Ghanavati, Diego Costa, Janos Seboek, David Lo, and Artur Andrzejak",
       pdfPathHref:
-        "https://www.researchgate.net/publication/334709860_Memory_and_resource_leak_defects_and_their_repairs_in_Java_projects",
+        "https://arxiv.org/pdf/1810.00101",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -464,9 +464,9 @@ export const DefaultPublications = [
       authors:
         "Ahmad Abdellatif, Diego Costa, Khaled Badran, Rabe Abdalkareem, and Emad Shihab",
       pdfPathHref:
-        "https://www.researchgate.net/publication/339954158_Challenges_in_Chatbot_Development_A_Study_of_Stack_Overflow_Posts",
-      githubLink: "https://zenodo.org/records/3610714",
-      datasetLink: "",
+        "publications/Challenges-in-Chatbot-Development-A Study-of-Stack-Overflow-Posts.pdf",
+      githubLink: "",
+      datasetLink: "https://zenodo.org/records/3610714",
       presentationLink: "",
       replicationPackageLink: "",
       videoLink: "",
@@ -480,9 +480,9 @@ export const DefaultPublications = [
       venue: "IEEE Transactions on Software Engineering (TSE)",
       authors: "Diego Costa, C. Bezemer, P. Leitner and A. Andrzejak",
       pdfPathHref:
-        "https://www.researchgate.net/publication/333825812_What%27s_Wrong_with_My_Benchmark_Results_Studying_Bad_Practices_in_JMH_Benchmarks",
-      githubLink: "https://zenodo.org/records/3610714",
-      datasetLink: "",
+        "https://asgaard.ece.ualberta.ca/papers/Journal/TSE_2019_Costa_Whats_Wrong_With_My_Benchmark_Results_Studying_Bad_Practices_in_JMH_Benchmarks.pdf",
+      githubLink: "",
+      datasetLink: "https://zenodo.org/records/3610714",
       presentationLink: "",
       replicationPackageLink: "",
       videoLink: "",
@@ -511,7 +511,7 @@ export const DefaultPublications = [
       authors:
         "Juan P. S. Alcocer, Harold C. Jaimes, Diego Costa, Alexandre Bergel and Fabian Beck",
       pdfPathHref:
-        "https://www.researchgate.net/publication/335854393_Enhancing_Commit_Graphs_with_Visual_Runtime_Clues",
+        "publications/Enhancing-Commit-Graphs-with-Visual-Runtime-Clues.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -527,11 +527,11 @@ export const DefaultPublications = [
         "TOSEGPCE'19: ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences",
       authors: "Artur Andrzejak, Kevin Kiefer, **Diego Costa**, and Oliver Wenz",
       pdfPathHref:
-        "https://www.researchgate.net/publication/335868045_Agile_Construction_of_Data_Science_DSLs_Tool_Demo",
-      githubLink: "https://einhornstyle.gitlab.io/nldsl/",
+        "https://aip.ifi.uni-heidelberg.de/fileadmin/papers/2019/Agile_Construction_of_Data_Science_DSLs_-_paper_GPCE2019.pdf",
+      githubLink: "",
       datasetLink: "",
       presentationLink: "",
-      replicationPackageLink: "",
+      replicationPackageLink: "https://einhornstyle.gitlab.io/nldsl/",
       videoLink: "",
       year: 2019,
       type: "Conferences",
@@ -544,7 +544,7 @@ export const DefaultPublications = [
         "CGO'18: International Symposium on Code Generation and Optimization",
       authors: "Diego Costa and Artur Andrzejak",
       pdfPathHref:
-        "https://www.researchgate.net/publication/323230033_CollectionSwitch_a_framework_for_efficient_and_dynamic_collection_selection",
+        "https://aip.ifi.uni-heidelberg.de/fileadmin/papers/2018/Collectionswitch_-_CGO2018.pdf",
       githubLink: "https://github.com/DiegoEliasCosta/collectionSwitch",
       datasetLink: "",
       presentationLink: "",
@@ -562,7 +562,7 @@ export const DefaultPublications = [
       authors:
         "Mohammadreza Ghanavati, Diego Costa, Artur Andrzejak, and Janos Seboek",
       pdfPathHref:
-        "https://www.researchgate.net/publication/323477150_Poster_Memory_and_Resource_Leak_Defects_in_Java_Projects_An_Empirical_Study",
+        "https://arxiv.org/pdf/1810.00101",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -579,7 +579,7 @@ export const DefaultPublications = [
       authors:
         "Andreas Spitz, Diego Costa, Kai Chen, Jan Greulich, Johanna Geiß, Stefan Wiesberg, and Michael Gertz",
       pdfPathHref:
-        "https://www.researchgate.net/publication/325591871_Heterogeneous_subgraph_features_for_information_networks",
+        "publications/Heterogeneous-subgraph-features-for-information-networks.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -594,7 +594,7 @@ export const DefaultPublications = [
       venue:
         "ICPE'17: ACM/SPEC on International Conference on Performance Engineering",
       authors: "Diego Costa, Artur Andrzejak, Janos Seboek, and David Lo",
-      pdfPathHref: "https://dl.acm.org/doi/10.1145/3030207.3030221",
+      pdfPathHref: "https://dl.acm.org/doi/pdf/10.1145/3030207.3030221",
       githubLink: "https://github.com/DiegoEliasCosta/CollectionsBench",
       datasetLink: "",
       presentationLink: "",
@@ -611,7 +611,7 @@ export const DefaultPublications = [
         "ISSRE'16: International Symposium on Software Reliability Engineering",
       authors: "Zhen Dong, Artur Andrzejak, David Lo and Diego Costa",
       pdfPathHref:
-        "https://www.researchgate.net/publication/307429820_ORPLocator_Identifying_Read_Points_of_Configuration_Options_via_Static_Analysis",
+        "publications/ORPLocator-Identifying-Read-Points-of-Configuration-Options-via-Static-Analysis.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -628,7 +628,7 @@ export const DefaultPublications = [
         "MASCOTS'15: IEEE International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",
       authors: "Diego Costa and Rivalino Matias Jr.",
       pdfPathHref:
-        "https://www.researchgate.net/publication/278392781_Characterization_of_Dynamic_Memory_Allocations_in_Real-World_Applications_An_Experimental_Study",
+        "publications/Characterization-of-Dynamic-Memory-Allocations-in-Real-World-Applications-An-Experimental-Study.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -646,7 +646,7 @@ export const DefaultPublications = [
       authors:
         "Rivalino Matias, Artur Andrzejak, Fumio Machida, Diego Costa and Kishor Trivedi",
       pdfPathHref:
-        "https://www.researchgate.net/publication/263450326_A_Systematic_Approach_for_Low-Latency_and_Robust_Detection_of_Software_Aging",
+        "publications/A-Systematic-Differential-Analysis-for-Fast-and-Robust-Detection-of-Software-Aging.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -658,11 +658,11 @@ export const DefaultPublications = [
     },
     {
       title:
-        "Experimental and theoretical analyses of memory allocation algorithm",
+        "Experimental and theoretical analyses of memory allocation algorithms",
       venue: "SAC'14: ACM Symposium on Applied Computing",
       authors: "Diego Costa, Rivalino Matias, Marcia Fernandes, and Lucio Borges",
       pdfPathHref:
-        "https://www.researchgate.net/publication/259043057_Experimental_and_Theoretical_Analyses_of_Memory_Allocation_Algorithms",
+        "publications/Experimental-and-theoretical-analyses-of-memory-allocation-algorithms.pdf",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",

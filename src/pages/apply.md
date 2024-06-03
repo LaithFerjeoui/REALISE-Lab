@@ -1,14 +1,14 @@
-## Apply Now
+# Joining the REALISE Lab
 
 Send the requirements below to our email [lab@gmail.com](mailto:lab@gmail.com)
 
 ## Prospective Students
 
-We are always on the lookout for hiring self-motivated MSc and PhD students to work on topics related to software engineering. You can see our research in detail in the [Publications](/publications). Currently, I am focused on three major research topics:
+We are always on the lookout for hiring self-motivated MSc and PhD students to work on topics related to software engineering. You can see our research in detail in the [Publications](/publications). Currently, our lab is focusing efforts on the following [Projects](/projects).
 
-- **Dependency Management:** How to help software maintainers at reusing open source libraries without risking the quality, security and stability of their systems?
-- **Performance Regression Testing:** How can we help software developers identify when their systems are slower, consume more energy, or use more memory than before?
-- **Engineering AI systems:** AI systems are increasingly becoming part of our daily lives. How can we help software developers to build more reliable AI systems?
+- **Securint the Software Supply Chain:** How to develop and reliably reuse open source software components (e.g., libraries, packages)? 
+- **Performance Testing:** How to better identify performance regressions during development?
+- **Engineering AI systems:** How to build and maintain reliable AI software systems?
 
 **Disclaimer:** In our research, we use AI methods to understand large amounts of data, propose intelligent solutions, or as an application for software engineering techniques. However, our research is not focused on developing AI methods. We use AI/ML/LLMs to help software developers deliver better quality software. If you are looking for a group that is specialized in AI research, this is not the right research group for you.
 

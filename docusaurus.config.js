@@ -99,11 +99,11 @@ const config = {
              label: "Projects",
              position: "left",
            },
-           {
-            to: "/partners",
-             label: "Partners",
-             position: "left",
-           },
+          //  {
+          //   to: "/partners",
+          //    label: "Partners",
+          //    position: "left",
+          //  },
            {
             to: "/blog",
              label: "News",
@@ -114,11 +114,11 @@ const config = {
              label: "Events",
              position: "left",
            },
-           {
-            to: "/apply",
-            label: "Apply",
-            position: "left",
-          },
+          //  {
+          //   to: "/apply",
+          //   label: "Apply",
+          //   position: "left",
+          // },
         
          
         ],

@@ -20,5 +20,5 @@ I am a thesis-based Software Engineering masters student at Concordia University
 - Summer Intern at [Tunisie Telecom](https://www.linkedin.com/company/tunisie-t-l-comhttps://www.linkedin.com/company/tunisie-t-l-com) (<em>Jul 2020-Aug 2020</em>)
 - Summer Intern at [Tunisair Handling](https://www.linkedin.com/company/tunisair-handling) (<em>Jul 2020-Aug 2020</em>)
 
-## Reserach interest
+## Research interest
 Going back to academia, I wanted to work in an environment that aims to bring research and the industry together. Therefore, I'm working with my supervisor, Professor [Diego Elias Costa](https://diegoeliascosta.github.io/), to help performance engineering teams across the industry with alleviating challenges they're encoutering in an attempt to provide performant applications for the end user, especially that these solutions are becoming more complex by the day, making it necessary yet challenging to keep record of performance changes and fix them accordingly.

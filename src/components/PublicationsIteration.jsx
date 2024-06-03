@@ -145,7 +145,7 @@ export default function PublicationsIteration({ project, all }) {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <GoDatabase size={20} /> <span>Database</span>
+                        <GoDatabase size={20} /> <span>Dataset</span>
                       </a>
                     )}
                     {pub.githubLink && (
@@ -194,14 +194,14 @@ export default function PublicationsIteration({ project, all }) {
                     {/* Toggle Text Area button */}
                     <div
                       className="flex justify-center items-center hover:scale-105 duration-300 text-[#868fa9] cursor-pointer"
-                      onClick={() => toggleTextArea(innerIndex)}
+                      onClick={() => toggleTextArea(publication.year + "0" + innerIndex)}
                     >
                       <FaQuoteLeft />
                       <span>BibTex</span>
                     </div>
                   </div>
                   {/* Pre-defined text area */}
-                  {showTextAreas[innerIndex] && (
+                  {showTextAreas[publication.year + "0" + innerIndex] && (
                     <textarea
                       className="rounded-[7px] border border-gray-400 flex justify-center w-full"
                       rows={4}
