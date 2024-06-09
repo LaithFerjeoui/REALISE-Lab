@@ -46,32 +46,20 @@ export default function Example() {
           </div>
           {news.map((item, index) => (
             <div
-              className="my-4 relative pb-6 text-center mb-12 hover:scale-105 duration-150"
+              className="my-4 relative text-left mb-12 hover:scale-105 duration-150"
               key={index}
             >
-              <div className="flex justify-center items-center gap-3 ">
+              <div className="flex items-start gap-3">
                 <div>
                   <FaNewspaper size={25} />
                 </div>
                 <div className="text-sm">
-                  <h2>{item.title}</h2>
-                </div>
-                <div>
-                  <FaNewspaper size={25} />
+                  <a href={item.href}>
+                    <h2>{item.title}</h2>
+                  </a>
                 </div>
               </div>
-
-              <p>{item.description}</p>
-              <div className="absolute -bottom-1 right-3">
-                <a
-                  href={item.href}
-                  type="button"
-                  className="rounded bg-indigo-50 px-2 py-1 text-sm font-semibold text-orange-400 shadow-sm hover:bg-indigo-100 border-0 flex justify-end items-center"
-                >
-                  Go to News Page
-                  <IoIosReturnRight size={20} />
-                </a>
-              </div>
+              <p className="ml-10">{item.description}</p>
             </div>
           ))}
           <span className="flex justify-center font-bold text-lg bg-white relative mx-auto px-4 w-fit z-50 rounded-lg text-gray-900 pt-12">
