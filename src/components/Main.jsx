@@ -9,7 +9,7 @@ export default function Example() {
   return (
     <Layout>
       {/* FIRST CONTAINER HERE */}
-      <div className="h-[420px] bg-gradient-to-b from-gray-400 to-white/5">
+      <div className="  h-[420px]  bg-gradient-to-b from-gray-400 to-white  ">
         <div className="flex flex-col justify-center items-center pt-12">
           <img className="w-[150px]" src="img/logo.png" alt="REALISE" />
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl gradient  text-center">
@@ -62,7 +62,7 @@ export default function Example() {
               <p className="ml-10">{item.description}</p>
             </div>
           ))}
-          <span className="flex justify-center font-bold text-lg bg-white relative mx-auto px-4 w-fit z-50 rounded-lg text-gray-900 pt-4">
+          <span className="flex justify-center font-bold text-lg bg-white relative mx-auto px-4 w-fit z-50 rounded-lg text-gray-900 pt-12">
             <div className="flex justify-center gap-2">
               <h1>Our</h1>
               <h1 className=" font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-600  to-red-800 border-b ">

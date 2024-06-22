@@ -44,7 +44,7 @@ export default function Example() {
                   {group.members.map((person) => (
                     <div
                       key={person.name}
-                      className="bg-white/10 rounded-lg shadow-md p-6 w-[350px] relative"
+                      className="bg-white rounded-lg shadow-md p-6 w-[350px] relative"
                     >
                       {person.imageUrl == "" ? (
                         <img

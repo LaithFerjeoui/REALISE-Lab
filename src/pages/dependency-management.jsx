@@ -18,12 +18,12 @@ const projectDetail1 = () => {
             Dependency Management{" "}
           </span>
         </div>
-        <p className="mx-auto text-gray-700 text-lg w-full text-center my-10 flex justify-center px-5">
+        <span className="mx-auto text-gray-700 text-lg w-full text-center my-10 flex justify-center px-5">
           Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam
           vitae illo. Non aliquid explicabo necessitatibus unde. Sed
           exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti
           dicta.
-        </p>
+        </span>
         <div className=" w-full ">
           <span className=" text-2xl font-bold flex justify-center text-gray-500 ">
             Related Publications:{" "}
