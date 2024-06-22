@@ -37,6 +37,9 @@
 [data-theme='dark'] h2 {
   color: white; 
 }
+[data-theme='dark'] p {
+  color: white; 
+}
 [data-theme='dark'] h2.no{
   color: rgb(6, 4, 4); 
 }
