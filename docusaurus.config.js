@@ -11,19 +11,20 @@ import tailwindPlugin from "./plugins/tailwind-config.js";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "REALISE Lab",
-  tagline: "Our Lab's Journey",
+  tagline: "Research on Analytics and Intelligence for Software Engineering",
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://REALISELab.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'REALISELab', // Usually your GitHub org/user name.
+  projectName: 'REALISELab.github.io', // Usually your repo name.
+  trailingSlash: false, // GitHub Pages adds a trailing slash to Docusaurus URLs by default. It is recommended to set a trailingSlash config (true or false, not undefined).
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
