@@ -104,7 +104,7 @@ export default function PublicationsIteration({ project, all }) {
               {typeItem.publications.map((pub, innerIndex) => (
                 <article
                   key={innerIndex}
-                  className="flex max-w-4xl flex-col items-start justify-between mx-auto mb-10"
+                  className="flex max-w-4xl flex-col items-start justify-between mx-auto "
                 >
                   <div className="flex items-center gap-x-4 text-xs">
                     <time
