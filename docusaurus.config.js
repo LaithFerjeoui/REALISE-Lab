@@ -25,6 +25,7 @@ const config = {
   organizationName: 'REALISELab', // Usually your GitHub org/user name.
   projectName: 'REALISELab.github.io', // Usually your repo name.
   trailingSlash: false, // GitHub Pages adds a trailing slash to Docusaurus URLs by default. It is recommended to set a trailingSlash config (true or false, not undefined).
+  deploymentBranch: 'gh-pages', // The branch your GitHub pages site is deployed from.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

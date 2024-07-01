@@ -35,15 +35,11 @@ export default function Example() {
           <Tweet />
         </div>
         <div className=" mt-16 relative md:mx-28 mx-5">
-          <span className="flex gap-2 justify-center font-bold text-lg bg-white relative mx-auto px-4 w-fit z-50 rounded-lg text-gray-900">
-            Latest
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600  to-red-800 border-b ">
-              News{" "}
+          <span className="my-4 relative text-left mb-12 hover:scale-105 duration-150">
+              <div className="flex justify-center gap-2">
+                <h2>Latest News</h2>
+              </div>
             </span>
-          </span>
-          <div className=" border-dashed border-b border-t-0 border-x-0 w-full absolute top-4 z-0">
-            {" "}
-          </div>
           {news.map((item, index) => (
             <div
               className="my-4 relative text-left mb-12 hover:scale-105 duration-150"
@@ -62,12 +58,9 @@ export default function Example() {
               <p className="ml-10">{item.description}</p>
             </div>
           ))}
-          <span className="flex justify-center font-bold text-lg bg-white relative mx-auto px-4 w-fit z-50 rounded-lg text-gray-900 pt-4">
+          <span className="my-4 relative text-left mb-12 hover:scale-105 duration-150">
             <div className="flex justify-center gap-2">
-              <h1>Our</h1>
-              <h1 className=" font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-600  to-red-800 border-b ">
-                Partners
-              </h1>
+              <h1>Our Partners</h1>
             </div>
           </span>
           <PartnersMainPage />
