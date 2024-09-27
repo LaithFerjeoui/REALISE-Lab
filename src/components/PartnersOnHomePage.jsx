@@ -9,7 +9,7 @@ const PartnersMainPage = () => {
 
   return (
         <div className="mx-auto flex justify-center w-full">
-          <div className="mx-auto mt-10 grid grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:pt-16 lg:mx-0 w-full lg:grid-cols-3">
+          <div className="mx-auto mt-10 flex justify-center items-center gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:pt-16 w-full ">
             {partners.map((partner) => (
               <article key={partner.name} className="flex max-w-xl flex-col items-start justify-between">
                 <div className="group relative">
