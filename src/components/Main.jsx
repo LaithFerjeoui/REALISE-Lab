@@ -61,7 +61,7 @@ export default function Example() {
             onClick={() => window.location.href = '/team'}
           />
         </div>
-        <div className="mt-16 relative mx-auto max-w-[90%]">
+        <div className="mt-16 relative mx-auto ">
           <span className="my-4 relative text-left mb-12 hover:scale-105 duration-150">
             <div className="flex justify-center gap-2">
               <h2>Latest News</h2>
