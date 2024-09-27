@@ -10,9 +10,9 @@ import tailwindPlugin from "./plugins/tailwind-config.js";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "REALISE Lab",
+  title: "REALISE Lab | Concordia University",
   tagline: "Research on Analytics and Intelligence for Software Engineering",
-  favicon: 'img/logo.png',
+  favicon: 'img/icon.png',
 
   // Set the production url of your site here
   url: 'https://REALISELab.github.io',
@@ -77,7 +77,7 @@ const config = {
         title: '',
         logo: {
           alt: '',
-          src: 'img/logo.png',
+          src: 'img/icon.png',
          
         },
         items: [
@@ -96,11 +96,11 @@ const config = {
              label: "Contact Us",
              position: "right",
            },
-           {
-            to: "/projects",
-             label: "Projects",
-             position: "left",
-           },
+           // {
+           //  to: "/projects",
+           //   label: "Projects",
+           //   position: "left",
+           // },
           //  {
           //   to: "/partners",
           //    label: "Partners",
@@ -109,11 +109,6 @@ const config = {
            {
             to: "/blog",
              label: "News",
-             position: "left",
-           },
-           {
-            to: "/events",
-             label: "Events",
              position: "left",
            },
           //  {
@@ -145,14 +140,14 @@ const config = {
                 to: "/publications",
               },
               
-              {
-                label: "Projects",
-                to: "/projects",
-              },
-              {
-                label: "Apply",
-                to: "/apply",
-              },
+              // {
+              //   label: "Projects",
+              //   to: "/projects",
+              // },
+              // {
+              //   label: "Apply",
+              //   to: "/apply",
+              // },
              
             ],
           },

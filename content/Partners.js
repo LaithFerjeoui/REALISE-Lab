@@ -17,4 +17,10 @@ export const partners = [
       imagePath: 'img/concordia-logo.png',
       link: 'https://www.concordia.ca/ginacody.html'
     },
+    {
+      name: 'Create SE4AI',
+      collaboration_topics: 'performance engineering, dependency management, SE4AI',
+      imagePath: 'img/se4ai-logo.png',
+      link: 'https://se4ai.org/'
+    },
 ];

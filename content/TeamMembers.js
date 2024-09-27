@@ -11,7 +11,7 @@ export const members = [
   },
   {
     name: 'Rachna Raj',
-    role: 'Masters student',
+    role: 'PhD student',
     imageUrl:
       'img/rachna-raj.jpg',
     twitterUrl: '#',
@@ -71,5 +71,14 @@ export const members = [
     twitterUrl: '',
     linkedinUrl: 'https://ca.linkedin.com/in/yasmine-drissi-24043127a',
     details: "teamInfo/yasmine"
+  },
+  {
+    name: 'Kawsar Ahmed Bhuiyan',
+    role: 'Masters student',
+    imageUrl:
+      'img/kawsar-ahmed-bhuiyan.jpeg',
+    twitterUrl: '',
+    linkedinUrl: 'https://www.linkedin.com/in/kawsarahmedbhuiyan',
+    details: "teamInfo/kawsar"
   },
 ]

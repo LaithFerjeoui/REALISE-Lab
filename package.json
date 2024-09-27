@@ -24,6 +24,7 @@
     "clsx": "^2.0.0",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
+    "lab": "file:",
     "markdown-to-jsx": "^7.4.7",
     "path": "^0.12.7",
     "prism-react-renderer": "^2.3.0",

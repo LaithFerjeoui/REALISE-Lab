@@ -27,7 +27,7 @@ Our lab is on the 12th floor, room 1204.
 
 # Joining REALISE Lab
 
-We are always on the lookout for hiring self-motivated MSc and PhD students to work on topics related to software engineering. You can see our research in detail in the [Publications](/publications). Currently, our lab is focusing efforts on the following [Projects](/projects).
+We are always on the lookout for hiring self-motivated MSc and PhD students to work on topics related to software engineering. You can see our research in detail in the [Publications](/publications). Currently, our lab is focusing efforts on the following projects: SE4AI, Performance engineering, and dependency management.
 
 - **Securint the Software Supply Chain:** How to develop and reliably reuse open source software components (e.g., libraries, packages)? 
 - **Performance Testing:** How to better identify performance regressions during development?

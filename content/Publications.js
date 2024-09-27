@@ -1,9 +1,25 @@
 export const DefaultPublications = [
+
     {
-      title: "The role of library versions in Developer-ChatGPT conversations",
-      venue: "MSR 2024 Mining Challenge, 2024",
-      authors: "Rachna Raj, Diego Elias Costa",
-      pdfPathHref: "https://arxiv.org/pdf/2401.16340",
+      title: "Predicting the First Response Latency of Maintainers and Contributors in Pull Requests",
+      venue: "TSE, 2024",
+      authors: "SayedHassan Khatoonabadi, Ahmad Abdellatif, Diego Elias Costa, Emad Shihab",
+      pdfPathHref: "https://arxiv.org/abs/2311.07786",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2024,
+      type: "Journals",
+      project: "",
+      citation: ""
+    },
+    {
+      title: "A Transformer-based Approach for Augmenting Software Engineering Chatbots Datasets",
+      venue: "ESEM, 2024",
+      authors: "Ahmad Abdellatif, Khaled Badran, Diego Elias Costa, Emad Shihab",
+      pdfPathHref: "https://arxiv.org/abs/2407.11955",
       githubLink: "",
       datasetLink: "",
       presentationLink: "",
@@ -11,11 +27,56 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2024,
       type: "Conferences",
-      project:"dependency-management"
+      project: "se4ai",
+      citation: ""
+    },
+    {
+      title: "Early Detection of Performance Regressions by Bridging Local Performance Data and Architectural Models",
+      venue: "ICSE, 2025",
+      authors: "Lizhi Liao, Simon Eismann, Heng Li, Cor-Paul Bezemer, Diego Elias Costa, André van Hoorn",
+      pdfPathHref: "https://arxiv.org/abs/2408.08148",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2025,
+      type: "Conferences",
+      project:"performance-engineering",
+      citation: ""
+    },
+    {
+      title: "The role of library versions in Developer-ChatGPT conversations",
+      venue: "MSR Mining Challenge, 2024",
+      authors: "Rachna Raj, Diego Elias Costa",
+      pdfPathHref: "https://arxiv.org/pdf/2401.16340",
+      githubLink: "https://github.com/rachnaraj/MSR-RR_Mining_Challenge2023",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2024,
+      type: "Conferences",
+      project:"dependency-management",
+      citation: `@inproceedings{10.1145/3643991.3645075,
+               author = {Raj, Rachna and Costa, Diego Elias},
+               title = {The role of library versions in Developer-ChatGPT conversations},
+               year = {2024},
+               isbn = {9798400705878},
+               publisher = {Association for Computing Machinery},
+               address = {New York, NY, USA},
+               url = {https://doi.org/10.1145/3643991.3645075},
+               doi = {10.1145/3643991.3645075},
+               booktitle = {Proceedings of the 21st International Conference on Mining Software Repositories},
+               pages = {172–176},
+               numpages = {5},
+               location = {Lisbon, Portugal},
+               series = {MSR '24}
+}`
     },
     {
       title: "Predicting the Impact of Crashes Across Release Channels",
-      venue: "MSR 2024 Industrial Track, 2024",
+      venue: "MSR Industrial Track, 2024",
       authors: "Suhaib Mujahid, Diego Elias Costa, Marco Castelluccio",
       pdfPathHref: "https://arxiv.org/pdf/2401.13667",
       githubLink: "",
@@ -25,7 +86,16 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2024,
       type: "Conferences",
-      project:"performance-engineering"
+      project: "",
+      citation: `@misc{mujahid2024predictingimpactcrashesrelease,
+      title={Predicting the Impact of Crashes Across Release Channels}, 
+      author={Suhaib Mujahid and Diego Elias Costa and Marco Castelluccio},
+      year={2024},
+      eprint={2401.13667},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2401.13667}, 
+}`
     },
     {
       title:
@@ -42,7 +112,23 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2023,
       type: "Journals",
-      project:"dependency-management"
+      project:"se4ai",
+      citation: `@ARTICLE {10274712,
+          author = {A. Abdellatif and G. Ghiasi and D. Costa and E. Shihab and T. Tajmel},
+          journal = {IEEE Software},
+          title = {SE4AI: A Training Program Considering Technical, Social, and Professional Aspects of AI-Based Software Systems},
+          year = {2024},
+          volume = {41},
+          number = {02},
+          issn = {1937-4194},
+          pages = {44-51},
+          abstract = {We share our experience developing a training program that provides trainees with technical, social, and professional knowledge in the context of artificial intelligence-based software systems. Survey results indicate the program has helped trainees increase their awareness of social and ethical issues.},
+          keywords = {artificial intelligence;training;software systems;industries;ethics;cultural differences;software engineering;quality assessment;performance evaluation;artificial intelligence;social implications of technology;data analysis;social factors;human factors;digital divide;sociotechnical systems},
+          doi = {10.1109/MS.2023.3322438},
+          publisher = {IEEE Computer Society},
+          address = {Los Alamitos, CA, USA},
+          month = {mar}
+}`
     },
     {
       title:
@@ -51,14 +137,27 @@ export const DefaultPublications = [
       authors:
         " SayedHassan Khatoonabadi, Diego Elias Costa, Suhaib Mujahid, Emad Shihab",
       pdfPathHref: "https://arxiv.org/pdf/2305.18150",
-      githubLink: "",
+      githubLink: "https://github.com/shassankhatoonabadi/stale-bot",
       datasetLink: "",
       presentationLink: "",
       replicationPackageLink: "",
       videoLink: "",
       year: 2023,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@article{Khatoonabadi_2023,
+         title={Understanding the Helpfulness of Stale Bot for Pull-Based Development: An Empirical Study of 20 Large Open-Source Projects},
+         volume={33},
+         ISSN={1557-7392},
+         url={http://dx.doi.org/10.1145/3624739},
+         DOI={10.1145/3624739},
+         number={2},
+         journal={ACM Transactions on Software Engineering and Methodology},
+         publisher={Association for Computing Machinery (ACM)},
+         author={Khatoonabadi, Sayedhassan and Costa, Diego Elias and Mujahid, Suhaib and Shihab, Emad},
+         year={2023},
+         month=dec, pages={1–43}
+}`
     },
     {
       title:
@@ -74,7 +173,16 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2023,
       type: "Conferences",
-      project:""
+      project:"dependency-management",
+      citation: `@misc{mujahid2023nowfindingalternativesdeclining,
+      title={Where to Go Now? Finding Alternatives for Declining Packages in the npm Ecosystem}, 
+      author={Suhaib Mujahid and Diego Elias Costa and Rabe Abdalkareem and Emad Shihab},
+      year={2023},
+      eprint={2308.08667},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2308.08667}, 
+}`
     },
     {
       title: "An Empirical Study on Bugs Inside PyTorch: A Replication Study",
@@ -90,7 +198,16 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2023,
       type: "Conferences",
-      project:""
+      project:"se4ai",
+      citation: `@misc{ho2023empiricalstudybugsinside,
+      title={An Empirical Study on Bugs Inside PyTorch: A Replication Study}, 
+      author={Sharon Chee Yin Ho and Vahid Majdinasab and Mohayeminul Islam and Diego Elias Costa and Emad Shihab and Foutse Khomh and Sarah Nadi and Muhammad Raza},
+      year={2023},
+      eprint={2307.13777},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2307.13777}, 
+}`
     },
     {
       title:
@@ -107,7 +224,20 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2023,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@article{ALFADEL2023111752,
+         title = {Empirical analysis of security-related code reviews in npm packages},
+         journal = {Journal of Systems and Software},
+         volume = {203},
+         pages = {111752},
+         year = {2023},
+         issn = {0164-1212},
+         doi = {https://doi.org/10.1016/j.jss.2023.111752},
+         url = {https://www.sciencedirect.com/science/article/pii/S0164121223001474},
+         author = {Mahmoud Alfadel and Nicholas Alexandre Nagy and Diego Elias Costa and Rabe Abdalkareem and Emad Shihab},
+         keywords = {Open source software, Third-party package, Code review, Security},
+         abstract = {Security issues are a major concern in software packages and their impact can be detrimental if exploited. Modern code review is a widely-used practice that project maintainers adopt to improve the quality of contributed code. Prior work has shown that code review has an important role in improving software quality, however, in-depth analyses on code review in relation to security issues are limited. Therefore, in this paper, we aim to explore the role of code review in finding and mitigating security issues. In particular, we investigate active and popular npm packages to understand what types of security issues are raised during code review, and what kind of mitigation strategies are employed by package maintainers to address them. With pull requests (PRs) being the medium of code review under study, we analyze 171 PRs with raised security issues. We find that such issues are discussed at length by package maintainers. Moreover, we find that code review is effective at identifying certain types of security concerns, e.g., Race Condition, Access Control, and ReDOS, as dealing with such issues requires in-depth knowledge of the project domain and implementation specifics. Interestingly, we also observe that some projects have automated tools integrated in the project development cycle, which enhances the identification of frequent cases of certain security issues. When analyzing how maintainers respond to the raised security issues, we find that most of the issues (55%) are frequently addressed and mitigated. In other cases, security concerns ended up not being fixed or are ignored by project maintainers. Leveraging our findings, we offer several implications for project maintainers to support the role of reviewing code in finding and fixing security concerns.}
+}`
     },
     {
       title: "Dependency Update Strategies and Package Characteristics",
@@ -121,7 +251,16 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2023,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@misc{jafari2023dependencyupdatestrategiespackage,
+      title={Dependency Update Strategies and Package Characteristics}, 
+      author={Abbas Javan Jafari and Diego Elias Costa and Emad Shihab and Rabe Abdalkareem},
+      year={2023},
+      eprint={2305.15675},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2305.15675}, 
+}`
     },
     {
       title: "Empirical analysis of security vulnerabilities in Python packages",
@@ -136,7 +275,18 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2023,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@INPROCEEDINGS{9425974,
+               author={Alfadel, Mahmoud and Costa, Diego Elias and Shihab, Emad},
+               booktitle={2021 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)}, 
+               title={Empirical Analysis of Security Vulnerabilities in Python Packages}, 
+               year={2021},
+               volume={},
+               number={},
+               pages={446-457},
+               keywords={Software packages;Conferences;Ecosystems;Tools;Software systems;Software;Timing;python;pypi;packages;vulnerabilities;empirical studies},
+               doi={10.1109/SANER50967.2021.00048}
+}`
     },
     {
       title: "Diversity Awareness in Software Engineering Participant Research",
@@ -151,7 +301,16 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2023,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@misc{dutta2023diversityawarenesssoftwareengineering,
+      title={Diversity Awareness in Software Engineering Participant Research}, 
+      author={Riya Dutta and Diego Elias Costa and Emad Shihab and Tanja Tajmel},
+      year={2023},
+      eprint={2302.00042},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2302.00042}, 
+}`
     },
     {
       title:
@@ -168,7 +327,16 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2022,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@misc{badran2022ensemblingpreprocessingalgorithmslead,
+      title={Can Ensembling Pre-processing Algorithms Lead to Better Machine Learning Fairness?}, 
+      author={Khaled Badran and Pierre-Olivier Côté and Amanda Kolopanis and Rached Bouchoucha and Antonio Collante and Diego Elias Costa and Emad Shihab and Foutse Khomh},
+      year={2022},
+      eprint={2212.02614},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2212.02614}, 
+}`
     },
     {
       title: "On the Discoverability of npm Vulnerabilities in Node.js Projects",
@@ -183,7 +351,26 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2022,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@article{10.1145/3571848,
+         author = {Alfadel, Mahmoud and Costa, Diego Elias and Shihab, Emad and Adams, Bram},
+         title = {On the Discoverability of npm Vulnerabilities in Node.js Projects},
+         year = {2023},
+         issue_date = {July 2023},
+         publisher = {Association for Computing Machinery},
+         address = {New York, NY, USA},
+         volume = {32},
+         number = {4},
+         issn = {1049-331X},
+         url = {https://doi.org/10.1145/3571848},
+         doi = {10.1145/3571848},
+         abstract = {The reliance on vulnerable dependencies is a major threat to software systems. Dependency vulnerabilities are common and remain undisclosed for years. However, once the vulnerability is discovered and publicly known to the community, the risk of exploitation reaches its peak, and developers have to work fast to remediate the problem. While there has been a lot of research to characterize vulnerabilities in software ecosystems, none have explored the problem taking the discoverability into account. Therefore, we perform a large-scale empirical study examining 6,546 Node.js applications. We define three discoverability levels based on vulnerabilities lifecycle (undisclosed, reported, and public). We find that although the majority of the affected applications (99.42\%) depend on undisclosed vulnerable packages, 206&nbsp;(4.63\%) applications were exposed to dependencies with public vulnerabilities. The major culprit for the applications being affected by public vulnerabilities is the lack of dependency updates; in 90.8\% of the cases, a fix is available but not patched by application maintainers. Moreover, we find that applications remain affected by public vulnerabilities for a long time (103 days). Finally, we devise DepReveal, a tool that supports our discoverability analysis approach, to help developers better understand vulnerabilities in their application dependencies and plan their project maintenance.},
+         journal = {ACM Trans. Softw. Eng. Methodol.},
+         month = {may},
+         articleno = {91},
+         numpages = {27},
+         keywords = {dependency vulnerabilities, software ecosystems, software packages, Open source software}
+}`
     },
     {
       title:
@@ -199,7 +386,16 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2022,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@misc{ayoup2022achievementunlockedcasestudy,
+      title={Achievement Unlocked: A Case Study on Gamifying DevOps Practices in Industry}, 
+      author={Patrick Ayoup and Diego Elias Costa and Emad Shihab},
+      year={2022},
+      eprint={2208.05860},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2208.05860}, 
+}`
     },
     {
       title:
@@ -216,7 +412,16 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2022,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@misc{latendresse2022dependenciesequalempiricalstudy,
+      title={Not All Dependencies are Equal: An Empirical Study on Production Dependencies in NPM}, 
+      author={Jasmine Latendresse and Suhaib Mujahid and Diego Elias Costa and Emad Shihab},
+      year={2022},
+      eprint={2207.14711},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2207.14711}, 
+}`
     },
     {
       title:
@@ -232,7 +437,24 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2022,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@inproceedings{10.1145/3546932.3547000,
+               author = {Zajdel, Stan and Costa, Diego Elias and Mili, Hafedh},
+               title = {Open source software: an approach to controlling usage and risk in application ecosystems},
+               year = {2022},
+               isbn = {9781450394437},
+               publisher = {Association for Computing Machinery},
+               address = {New York, NY, USA},
+               url = {https://doi.org/10.1145/3546932.3547000},
+               doi = {10.1145/3546932.3547000},
+               abstract = {The Open Source Software movement has been growing exponentially for a number of years with no signs of slowing. Driving this growth is the wide-spread availability of libraries and frameworks that provide many functionalities. Developers are saving time and money incorporating this functionality into their applications resulting in faster more feature-rich releases. Despite the growing success and the advantages that open source software provides, there is a dark side. Due to its community construction and largely unregulated distribution, the majority of open source software contains bugs, vulnerabilities and other issues making it highly susceptible to exploits. The lack of oversight in general hinders the quality of this software resulting in a trickle down effect in the applications that use it. Additionally, developers who use open source tend to arbitrarily download the software into their build systems but rarely keep track of what they have downloaded resulting in an excessive amount of open source software in their applications and in their ecosystem. This paper discusses processes and practices that users of open source software can implement into their environments that can safely track and control the introduction and usage of open source software into their applications, and report on some preliminary results obtained in an industrial context. We conclude by discussing governance issues related to the disciplined use and reuse of open source and areas for further improvements.},
+               booktitle = {Proceedings of the 26th ACM International Systems and Software Product Line Conference - Volume A},
+               pages = {154–163},
+               numpages = {10},
+               keywords = {DevSecOps, NPM, dependencies, maven, open source software},
+               location = {Graz, Austria},
+               series = {SPLC '22}
+}`
     },
     {
       title:
@@ -249,7 +471,26 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2022,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@article{10.1145/3530785,
+         author = {Khatoonabadi, Sayedhassan and Costa, Diego Elias and Abdalkareem, Rabe and Shihab, Emad},
+         title = {On Wasted Contributions: Understanding the Dynamics of Contributor-Abandoned Pull Requests–A Mixed-Methods Study of 10 Large Open-Source Projects},
+         year = {2023},
+         issue_date = {January 2023},
+         publisher = {Association for Computing Machinery},
+         address = {New York, NY, USA},
+         volume = {32},
+         number = {1},
+         issn = {1049-331X},
+         url = {https://doi.org/10.1145/3530785},
+         doi = {10.1145/3530785},
+         abstract = {Pull-based development has enabled numerous volunteers to contribute to open-source projects with fewer barriers. Nevertheless, a considerable amount of pull requests (PRs) with valid contributions are abandoned by their contributors, wasting the effort and time put in by both the contributors and maintainers. To better understand the underlying dynamics of contributor-abandoned PRs, we conduct a mixed-methods study using both quantitative and qualitative methods. We curate a dataset consisting of 265,325 PRs including 4,450 abandoned ones from ten popular and mature GitHub projects and measure 16 features characterizing PRs, contributors, review processes, and projects. Using statistical and machine learning techniques, we find that complex PRs, novice contributors, and lengthy reviews have a higher probability of abandonment and the rate of PR abandonment fluctuates alongside the projects’ maturity or workload. To identify why contributors abandon their PRs, we also manually examine a random sample of 354 abandoned PRs. We observe that the most frequent abandonment reasons are related to the obstacles faced by contributors, followed by the hurdles imposed by maintainers during the review process. Finally, we survey the top core maintainers of the studied projects to understand their perspectives on dealing with PR abandonment and on our findings.},
+         journal = {ACM Trans. Softw. Eng. Methodol.},
+         month = {feb},
+         articleno = {15},
+         numpages = {39},
+         keywords = {mixed-methods research, open-source software, social coding platforms, modern code review, pull-based development, Socio-technical factors}
+}`
     },
     {
       title:
@@ -265,7 +506,16 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2022,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@misc{eismann2021casestudystabilityperformance,
+      title={A Case Study on the Stability of Performance Tests for Serverless Applications}, 
+      author={Simon Eismann and Diego Elias Costa and Lizhi Liao and Cor-Paul Bezemer and Weiyi Shang and André van Hoorn and Samuel Kounev},
+      year={2021},
+      eprint={2107.13320},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC},
+      url={https://arxiv.org/abs/2107.13320}, 
+}`
     },
     {
       title:
@@ -280,7 +530,21 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2022,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@Article{s22041454,
+         AUTHOR = {Elshafei, Mohamed and Costa, Diego Elias and Shihab, Emad},
+         TITLE = {Toward the Personalization of Biceps Fatigue Detection Model for Gym Activity: An Approach to Utilize Wearables’ Data from the Crowd},
+         JOURNAL = {Sensors},
+         VOLUME = {22},
+         YEAR = {2022},
+         NUMBER = {4},
+         ARTICLE-NUMBER = {1454},
+         URL = {https://www.mdpi.com/1424-8220/22/4/1454},
+         PubMedID = {35214356},
+         ISSN = {1424-8220},
+         ABSTRACT = {Nowadays, wearables-based Human Activity Recognition (HAR) systems represent a modern, robust, and lightweight solution to monitor athlete performance. However, user data variability is a problem that may hinder the performance of HAR systems, especially the cross-subject HAR models. Such a problem may have a lesser effect on the subject-specific model because it is a tailored model that serves a specific user; hence, data variability is usually low, and performance is often high. However, such a performance comes with a high cost in data collection and processing per user. Therefore, in this work, we present a personalized model that achieves higher performance than the cross-subject model while maintaining a lower data cost than the subject-specific model. Our personalization approach sources data from the crowd based on similarity scores computed between the test subject and the individuals in the crowd. Our dataset consists of 3750 concentration curl repetitions from 25 volunteers with ages and BMI ranging between 20–46 and 24–46, respectively. We compute 11 hand-crafted features and train 2 personalized AdaBoost models, Decision Tree (AdaBoost-DT) and Artificial Neural Networks (AdaBoost-ANN), using data from whom the test subject shares similar physical and single traits. Our findings show that the AdaBoost-DT model outperforms the cross-subject-DT model by 5.89%, while the AdaBoost-ANN model outperforms the cross-subject-ANN model by 3.38%. On the other hand, at 50.0% less of the test subject’s data consumption, our AdaBoost-DT model outperforms the subject-specific-DT model by 16%, while the AdaBoost-ANN model outperforms the subject-specific-ANN model by 10.33%. Yet, the subject-specific models achieve the best performances at 100% of the test subjects’ data consumption.},
+         DOI = {10.3390/s22041454}
+}`
     },
     {
       title:
@@ -296,7 +560,20 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@article{Mujahid_2022,
+         title={Toward Using Package Centrality Trend to Identify Packages in Decline},
+         volume={69},
+         ISSN={1558-0040},
+         url={http://dx.doi.org/10.1109/TEM.2021.3122012},
+         DOI={10.1109/tem.2021.3122012},
+         number={6},
+         journal={IEEE Transactions on Engineering Management},
+         publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+         author={Mujahid, Suhaib and Costa, Diego Elias and Abdalkareem, Rabe and Shihab, Emad and Saied, Mohamed Aymen and Adams, Bram},
+         year={2022},
+         month=dec, pages={3618–3632}
+}`
     },
     {
       title:
@@ -312,7 +589,21 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@Article{s21216997,
+         AUTHOR = {Afzali Arani, Mahsa Sadat and Costa, Diego Elias and Shihab, Emad},
+         TITLE = {Human Activity Recognition: A Comparative Study to Assess the Contribution Level of Accelerometer, ECG, and PPG Signals},
+         JOURNAL = {Sensors},
+         VOLUME = {21},
+         YEAR = {2021},
+         NUMBER = {21},
+         ARTICLE-NUMBER = {6997},
+         URL = {https://www.mdpi.com/1424-8220/21/21/6997},
+         PubMedID = {34770303},
+         ISSN = {1424-8220},
+         ABSTRACT = {Inertial sensors are widely used in the field of human activity recognition (HAR), since this source of information is the most informative time series among non-visual datasets. HAR researchers are actively exploring other approaches and different sources of signals to improve the performance of HAR systems. In this study, we investigate the impact of combining bio-signals with a dataset acquired from inertial sensors on recognizing human daily activities. To achieve this aim, we used the PPG-DaLiA dataset consisting of 3D-accelerometer (3D-ACC), electrocardiogram (ECG), photoplethysmogram (PPG) signals acquired from 15 individuals while performing daily activities. We extracted hand-crafted time and frequency domain features, then, we applied a correlation-based feature selection approach to reduce the feature-set dimensionality. After introducing early fusion scenarios, we trained and tested random forest models with subject-dependent and subject-independent setups. Our results indicate that combining features extracted from the 3D-ACC signal with the ECG signal improves the classifier’s performance F1-scores by 2.72% and 3.00% (from 94.07% to 96.80%, and 83.16% to 86.17%) for subject-dependent and subject-independent approaches, respectively.},
+         DOI = {10.3390/s21216997}
+}`
     },
     {
       title: "Dependency Smells in JavaScript Projects",
@@ -327,7 +618,20 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@article{Jafari_2022,
+         title={Dependency Smells in JavaScript Projects},
+         volume={48},
+         ISSN={2326-3881},
+         url={http://dx.doi.org/10.1109/TSE.2021.3106247},
+         DOI={10.1109/tse.2021.3106247},
+         number={10},
+         journal={IEEE Transactions on Software Engineering},
+         publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+         author={Jafari, Abbas Javan and Costa, Diego Elias and Abdalkareem, Rabe and Shihab, Emad and Tsantalis, Nikolaos},
+         year={2022},
+         month=oct, pages={3790–3807}
+}`
     },
     {
       title: "How do developers use the Java Stream API?",
@@ -341,7 +645,16 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@inbook{inbook,
+        author = {Nostas, Joshua and Sandoval Alcocer, Juan and Costa, Diego and Bergel, Alexandre},
+        year = {2021},
+        month = {09},
+        pages = {323-335},
+        title = {How Do Developers Use the Java Stream API?},
+        isbn = {978-3-030-87006-5},
+        doi = {10.1007/978-3-030-87007-2_23}
+}`
     },
     {
       title:
@@ -356,7 +669,20 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@article{Abdellatif_2022,
+         title={A Comparison of Natural Language Understanding Platforms for Chatbots in Software Engineering},
+         volume={48},
+         ISSN={2326-3881},
+         url={http://dx.doi.org/10.1109/TSE.2021.3078384},
+         DOI={10.1109/tse.2021.3078384},
+         number={8},
+         journal={IEEE Transactions on Software Engineering},
+         publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+         author={Abdellatif, Ahmad and Badran, Khaled and Costa, Diego Elias and Shihab, Emad},
+         year={2022},
+         month=aug, pages={3087–3102}
+}`
     },
     {
       title: "On the Use of Dependabot Security Pull Requests",
@@ -372,7 +698,18 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@INPROCEEDINGS{9463148,
+               author={Alfadel, Mahmoud and Costa, Diego Elias and Shihab, Emad and Mkhallalati, Mouafak},
+               booktitle={2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)}, 
+               title={On the Use of Dependabot Security Pull Requests}, 
+               year={2021},
+               volume={},
+               number={},
+               pages={254-265},
+               keywords={Manuals;Security;Data mining;Open source software;Software development management;Dependabot;pull request;dependency;security vulnerability},
+               doi={10.1109/MSR52588.2021.00037}
+}`
     },
     {
       title:
@@ -390,7 +727,18 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@INPROCEEDINGS{9463134,
+               author={Latendresse, Jasmine and Abdalkareem, Rabe and Elias Costa, Diego and Shihab, Emad},
+               booktitle={2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR)}, 
+               title={How Effective is Continuous Integration in Indicating Single-Statement Bugs?}, 
+               year={2021},
+               volume={},
+               number={},
+               pages={500-504},
+               keywords={Computer languages;Computer bugs;Pipelines;Manuals;Tools;Inspection;Software},
+               doi={10.1109/MSR52588.2021.00062}
+}`
     },
     {
       title: "Empirical Analysis of Security Vulnerabilities in Python Packages",
@@ -406,7 +754,18 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Conferences",
-      project:"se4ai"
+      project:"se4ai",
+      citation: `@INPROCEEDINGS{9425974,
+               author={Alfadel, Mahmoud and Costa, Diego Elias and Shihab, Emad},
+               booktitle={2021 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)}, 
+               title={Empirical Analysis of Security Vulnerabilities in Python Packages}, 
+               year={2021},
+               volume={},
+               number={},
+               pages={446-457},
+               keywords={Software packages;Conferences;Ecosystems;Tools;Software systems;Software;Timing;python;pypi;packages;vulnerabilities;empirical studies},
+               doi={10.1109/SANER50967.2021.00048}
+}`
     },
     {
       title:
@@ -422,7 +781,20 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Conferences",
-      project:"dependency-management"
+      project:"dependency-management",
+      citation: `@article{Costa_2022,
+         title={Breaking Type Safety in Go: An Empirical Study on the Usage of the unsafe Package},
+         volume={48},
+         ISSN={2326-3881},
+         url={http://dx.doi.org/10.1109/TSE.2021.3057720},
+         DOI={10.1109/tse.2021.3057720},
+         number={7},
+         journal={IEEE Transactions on Software Engineering},
+         publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+         author={Costa, Diego Elias and Mujahid, Suhaib and Abdalkareem, Rabe and Shihab, Emad},
+         year={2022},
+         month=jul, pages={2277–2294}
+}`
     },
     {
       title:
@@ -438,7 +810,21 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2021,
       type: "Journals",
-      project:"performance-engineering"
+      project: "",
+      citation: `@Article{s21041070,
+         AUTHOR = {Elshafei, Mohamed and Costa, Diego Elias and Shihab, Emad},
+         TITLE = {On the Impact of Biceps Muscle Fatigue in Human Activity Recognition},
+         JOURNAL = {Sensors},
+         VOLUME = {21},
+         YEAR = {2021},
+         NUMBER = {4},
+         ARTICLE-NUMBER = {1070},
+         URL = {https://www.mdpi.com/1424-8220/21/4/1070},
+         PubMedID = {33557239},
+         ISSN = {1424-8220},
+         ABSTRACT = {Nowadays, Human Activity Recognition (HAR) systems, which use wearables and smart systems, are a part of our daily life. Despite the abundance of literature in the area, little is known about the impact of muscle fatigue on these systems’ performance. In this work, we use the biceps concentration curls exercise as an example of a HAR activity to observe the impact of fatigue impact on such systems. Our dataset consists of 3000 biceps concentration curls performed and collected from 20 volunteers aged between 20–35. Our findings indicate that fatigue often occurs in later sets of an exercise and extends the completion time of later sets by up to 31% and decreases muscular endurance by 4.1%. Another finding shows that changes in data patterns are often occurring during fatigue presence, causing seven features to become statistically insignificant. Further findings indicate that fatigue can cause a substantial decrease in performance in both subject-specific and cross-subject models. Finally, we observed that a Feedforward Neural Network (FNN) showed the best performance in both cross-subject and subject-specific models in all our evaluations.},
+         DOI = {10.3390/s21041070}
+}`
     },
     {
       title:
@@ -455,7 +841,20 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2020,
       type: "Journals",
-      project:"performance-engineering"
+      project:"",
+      citation: `@article{Ghanavati_2019,
+   title={Memory and resource leak defects and their repairs in Java projects},
+   volume={25},
+   ISSN={1573-7616},
+   url={http://dx.doi.org/10.1007/s10664-019-09731-8},
+   DOI={10.1007/s10664-019-09731-8},
+   number={1},
+   journal={Empirical Software Engineering},
+   publisher={Springer Science and Business Media LLC},
+   author={Ghanavati, Mohammadreza and Costa, Diego and Seboek, Janos and Lo, David and Andrzejak, Artur},
+   year={2019},
+   month=jul, pages={678–718}
+}`
     },
     {
       title: "Challenges in Chatbot Development: A Study of Stack Overflow Posts",
@@ -472,7 +871,18 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2020,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@INPROCEEDINGS{10148686,
+               author={Abdellatif, Ahmad and Costa, Diego and Badran, Khaled and Abdalkareem, Rabe and Shihab, Emad},
+               booktitle={2020 IEEE/ACM 17th International Conference on Mining Software Repositories (MSR)}, 
+               title={Challenges in Chatbot Development: A Study of Stack Overflow Posts}, 
+               year={2020},
+               volume={},
+               number={},
+               pages={174-185},
+               keywords={Training;Pressing;Oral communication;Machine learning;Chatbots;Software systems;Data mining;Software Chatbots Development;Empirical Study;Chatbot Issues;Stack Overflow},
+               doi={10.1145/3379597.3387472}
+}`
     },
     {
       title:
@@ -488,7 +898,18 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2019,
       type: "Conferences",
-      project:""
+      project: "performance-engineering",
+      citation: `@ARTICLE{8747433,
+         author={Costa, Diego and Bezemer, Cor-Paul and Leitner, Philipp and Andrzejak, Artur},
+         journal={IEEE Transactions on Software Engineering}, 
+         title={What's Wrong with My Benchmark Results? Studying Bad Practices in JMH Benchmarks}, 
+         year={2021},
+         volume={47},
+         number={7},
+         pages={1452-1467},
+         keywords={Benchmark testing;Java;Optimization;Tools;Writing;Static analysis;Performance testing;microbenchmarking;JMH;bad practices;static analysis},
+         doi={10.1109/TSE.2019.2925345}
+}`
     },
     {
       title: "Benchmark-driven Software Performance Optimization",
@@ -503,7 +924,18 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2019,
       type: "Thesis",
-      project:""
+      project:"",
+      citation: `@phdthesis{DBLP:phd/dnb/Costa19,
+           author       = {Diego Elias Damasceno Costa},
+           title        = {Benchmark-driven Software Performance Optimization},
+           school       = {University of Heidelberg, Germany},
+           year         = {2019},
+           url          = {http://www.ub.uni-heidelberg.de/archiv/26919},
+           urn          = {urn:nbn:de:bsz:16-heidok-269197},
+           timestamp    = {Sat, 17 Jul 2021 09:07:28 +0200},
+           biburl       = {https://dblp.org/rec/phd/dnb/Costa19.bib},
+           bibsource    = {dblp computer science bibliography, https://dblp.org}
+}`
     },
     {
       title: "Enhancing Commit Graphs with Visual Runtime Clues",
@@ -519,7 +951,18 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2019,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@INPROCEEDINGS{8900964,
+               author={Sandoval Alcocer, Juan Pablo and Camacho Jaimes, Harold and Costa, Diego and Bergel, Alexandre and Beck, Fabian},
+               booktitle={2019 Working Conference on Software Visualization (VISSOFT)}, 
+               title={Enhancing Commit Graphs with Visual Runtime Clues}, 
+               year={2019},
+               volume={},
+               number={},
+               pages={28-32},
+               keywords={Software Evolution;Software Visualization},
+               doi={10.1109/VISSOFT.2019.00012}
+}`
     },
     {
       title: "Agile construction of data science DSLs (tool demo)",
@@ -535,7 +978,24 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2019,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@inproceedings{10.1145/3357765.3359516,
+               author = {Andrzejak, Artur and Kiefer, Kevin and Costa, Diego Elias and Wenz, Oliver},
+               title = {Agile construction of data science DSLs (tool demo)},
+               year = {2019},
+               isbn = {9781450369800},
+               publisher = {Association for Computing Machinery},
+               address = {New York, NY, USA},
+               url = {https://doi.org/10.1145/3357765.3359516},
+               doi = {10.1145/3357765.3359516},
+               abstract = {Domain Specific Languages (DSLs) have proven useful in the domain of data science, as witnessed by the popularity of SQL. However, implementing and maintaining a DSL incurs a significant effort which limits their utility in context of fast-changing data science frameworks and libraries.  We propose an approach and a Python-based library/tool NLDSL which simplifies and streamlines implementation of DSLs modeling pipelines of operations. In particular, syntax description and operation implementation are bundled together as annotated and terse Python functions, which simplifies extending and maintaining a DSL. To support ad hoc DSL elements, NLDSL offers a mechanism to define DSL-level functions as first-class DSL elements.  Our tool automatically supports each DSL by code completions and in-editor documentation in a multitude of IDEs implementing the Microsoft's Language Server Protocol. To circumvent the problem of a limited expressiveness of a external DSL, our tool allows embedding DSL statements in the source code comments of a general purpose language and to translate the DSL to such a language during editing.  We demonstrate and evaluate our approach and tool by implementing a DSL for data tables which is translated to either Pandas or to PySpark code. A preliminary evaluation shows that this DSL can be defined in a concise and maintainable way, and that it can cover a majority of processing steps of popular Spark/Pandas tutorials.},
+               booktitle = {Proceedings of the 18th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences},
+               pages = {27–33},
+               numpages = {7},
+               keywords = {Apache Spark, Assisted editing and IntelliSense, Code generation, DSL development, Data analysis frameworks, Python Pandas},
+               location = {Athens, Greece},
+               series = {GPCE 2019}
+}`
     },
     {
       title:
@@ -552,7 +1012,24 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2018,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@inproceedings{10.1145/3168825,
+               author = {Costa, Diego and Andrzejak, Artur},
+               title = {CollectionSwitch: a framework for efficient and dynamic collection selection},
+               year = {2018},
+               isbn = {9781450356176},
+               publisher = {Association for Computing Machinery},
+               address = {New York, NY, USA},
+               url = {https://doi.org/10.1145/3168825},
+               doi = {10.1145/3168825},
+               abstract = {Selecting collection data structures for a given application is a crucial aspect of the software development. Inefficient usage of collections has been credited as a major cause of performance bloat in applications written in Java, C++ and C#. Furthermore, a single implementation might not be optimal throughout the entire program execution. This demands an adaptive solution that adjusts at runtime the collection implementations to varying workloads.  We present CollectionSwitch, an application-level framework for efficient collection adaptation. It selects at runtime collection implementations in order to optimize the execution and memory performance of an application. Unlike previous works, we use workload data on the level of collection allocation sites to guide the optimization process. Our framework identifies allocation sites which instantiate suboptimal collection variants, and selects optimized variants for future instantiations. As a further contribution we propose adaptive collection implementations which switch their underlying data structures according to the size of the collection.  We implement this framework in Java, and demonstrate the improvements in terms of time and memory behavior across a range of benchmarks. To our knowledge, it is the first approach which is capable of runtime performance optimization of Java collections with very low overhead.},
+               booktitle = {Proceedings of the 2018 International Symposium on Code Generation and Optimization},
+               pages = {16–26},
+               numpages = {11},
+               keywords = {performance, optimization, data structure, adaptive algorithms},
+               location = {Vienna, Austria},
+               series = {CGO 2018}
+}`
     },
     {
       title:
@@ -570,7 +1047,20 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2018,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@article{Ghanavati_2019,
+         title={Memory and resource leak defects and their repairs in Java projects},
+         volume={25},
+         ISSN={1573-7616},
+         url={http://dx.doi.org/10.1007/s10664-019-09731-8},
+         DOI={10.1007/s10664-019-09731-8},
+         number={1},
+         journal={Empirical Software Engineering},
+         publisher={Springer Science and Business Media LLC},
+         author={Ghanavati, Mohammadreza and Costa, Diego and Seboek, Janos and Lo, David and Andrzejak, Artur},
+         year={2019},
+         month=jul, pages={678–718}
+}`
     },
     {
       title: "Heterogeneous subgraph features for information networks",
@@ -587,7 +1077,24 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2018,
       type: "Journals",
-      project:""
+      project:"",
+      citation: `@inproceedings{10.1145/3210259.3210266,
+               author = {Spitz, Andreas and Costa, Diego and Chen, Kai and Greulich, Jan and Gei\ss{}, Johanna and Wiesberg, Stefan and Gertz, Michael},
+               title = {Heterogeneous subgraph features for information networks},
+               year = {2018},
+               isbn = {9781450356954},
+               publisher = {Association for Computing Machinery},
+               address = {New York, NY, USA},
+               url = {https://doi.org/10.1145/3210259.3210266},
+               doi = {10.1145/3210259.3210266},
+               abstract = {Networks play an increasingly important role in modelling real-world systems due to their utility in representing complex connections. For predictive analyses, the engineering of node features in such networks is of fundamental importance to machine learning applications, where the lack of external information often introduces the need for features that are based purely on network topology. Existing feature extraction approaches have so far focused primarily on networks with just one type of node and thereby disregarded the information contained in the topology of heterogeneous networks, or used domain specific approaches that incorporate node labels based on external knowledge. Here, we generalize the notion of heterogeneity and present an approach for the efficient extraction and representation of heterogeneous subgraph features. We evaluate their performance for rank- and label-prediction tasks and explore the implications of feature importance for prominent subgraphs. Our experiments reveal that heterogeneous subgraph features reach the predictive power of manually engineered features that incorporate domain knowledge. Furthermore, we find that heterogeneous subgraph features outperform state-of-the-art neural node embeddings in both tasks and across all data sets.},
+               booktitle = {Proceedings of the 1st ACM SIGMOD Joint International Workshop on Graph Data Management Experiences \& Systems (GRADES) and Network Data Analytics (NDA)},
+               articleno = {7},
+               numpages = {9},
+               keywords = {node features, information networks, heterogeneous networks, graph encodings, feature engineering},
+               location = {Houston, Texas},
+               series = {GRADES-NDA '18}
+}`
     },
     {
       title: "Empirical Study of Usage and Performance of Java Collections",
@@ -602,7 +1109,24 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2017,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@inproceedings{10.1145/3030207.3030221,
+               author = {Costa, Diego and Andrzejak, Artur and Seboek, Janos and Lo, David},
+               title = {Empirical Study of Usage and Performance of Java Collections},
+               year = {2017},
+               isbn = {9781450344043},
+               publisher = {Association for Computing Machinery},
+               address = {New York, NY, USA},
+               url = {https://doi.org/10.1145/3030207.3030221},
+               doi = {10.1145/3030207.3030221},
+               abstract = {Collection data structures have a major impact on the performance of applications, especially in languages such as Java, C#, or C++. This requires a developer to select an appropriate collection from a large set of possibilities, including different abstractions (e.g. list, map, set, queue), and multiple implementations. In Java, the default implementation of collections is provided by the standard Java Collection Framework (JCF). However, there exist a large variety of less known third-party collection libraries which can provide substantial performance benefits with minimal code changes.In this paper, we first study the popularity and usage patterns of collection implementations by mining a code corpus comprised of 10,986 Java projects. We use the results to evaluate and compare the performance of the six most popular alternative collection libraries in a large variety of scenarios. We found that for almost every scenario and JCF collection type there is an alternative implementation that greatly decreases memory consumption while offering comparable or even better execution time. Memory savings range from 60\% to 88\% thanks to reduced overhead and some operations execute 1.5x to 50x faster.We present our results as a comprehensive guideline to help developers in identifying the scenarios in which an alternative implementation can provide a substantial performance improvement. Finally, we discuss how some coding patterns result in substantial performance differences of collections.},
+               booktitle = {Proceedings of the 8th ACM/SPEC on International Conference on Performance Engineering},
+               pages = {389–400},
+               numpages = {12},
+               keywords = {performance, memory, java, execution time, empirical study, collections},
+               location = {L'Aquila, Italy},
+               series = {ICPE '17}
+}`
     },
     {
       title:
@@ -619,7 +1143,18 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2016,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@INPROCEEDINGS{7774519,
+               author={Dong, Zhen and Andrzejak, Artur and Lo, David and Costa, Diego},
+               booktitle={2016 IEEE 27th International Symposium on Software Reliability Engineering (ISSRE)}, 
+               title={ORPLocator: Identifying Read Points of Configuration Options via Static Analysis}, 
+               year={2016},
+               volume={},
+               number={},
+               pages={185-195},
+               keywords={Documentation;Software;Java;Production;Debugging;Prototypes;Software reliability;Configuration options;Static analysis;Inconsistency detection;Empirical study},
+               doi={10.1109/ISSRE.2016.37}
+}`
     },
     {
       title:
@@ -636,7 +1171,18 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2015,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@INPROCEEDINGS{7330178,
+               author={Costa, Diego and Matias Jr, Rivalino},
+               booktitle={2015 IEEE 23rd International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems}, 
+               title={Characterization of Dynamic Memory Allocations in Real-World Applications: An Experimental Study}, 
+               year={2015},
+               volume={},
+               number={},
+               pages={93-101},
+               keywords={Resource management;Memory management;Dynamic scheduling;Databases;Computers;Servers;Instruments;memory management;dynamic allocation;characterization;experimental study},
+               doi={10.1109/MASCOTS.2015.28}
+}`
     },
     {
       title:
@@ -654,7 +1200,18 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2015,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@INPROCEEDINGS{6983406,
+               author={Matias, Rivalino and Andrzejak, Artur and Machida, Fumio and Elias, Diego and Trivedi, Kishor},
+               booktitle={2014 IEEE 33rd International Symposium on Reliable Distributed Systems}, 
+               title={A Systematic Differential Analysis for Fast and Robust Detection of Software Aging}, 
+               year={2014},
+               volume={},
+               number={},
+               pages={311-320},
+               keywords={Software;Aging;Measurement;Monitoring;Market research;Memory management;Time series analysis;anomaly detection;memory leak;software aging},
+               doi={10.1109/SRDS.2014.38}
+}`
     },
     {
       title:
@@ -670,6 +1227,23 @@ export const DefaultPublications = [
       videoLink: "",
       year: 2015,
       type: "Conferences",
-      project:""
+      project:"",
+      citation: `@inproceedings{10.1145/2554850.2555149,
+               author = {Elias, Diego and Matias, Rivalino and Fernandes, Marcia and Borges, Lucio},
+               title = {Experimental and theoretical analyses of memory allocation algorithms},
+               year = {2014},
+               isbn = {9781450324694},
+               publisher = {Association for Computing Machinery},
+               address = {New York, NY, USA},
+               url = {https://doi.org/10.1145/2554850.2555149},
+               doi = {10.1145/2554850.2555149},
+               abstract = {In this paper, we present an experimental study to compare six user-level memory allocators. In addition, we compare the experimental results with the asymptotic analyses of the evaluated algorithms. The experimental results show that parallelism affects negatively the investigated allocators. The theoretical analysis of the execution time demonstrated that all evaluated allocators show linear complexity with respect to the number of allocations.},
+               booktitle = {Proceedings of the 29th Annual ACM Symposium on Applied Computing},
+               pages = {1545–1546},
+               numpages = {2},
+               keywords = {algorithm analysis, memory allocators, multithreading},
+               location = {Gyeongju, Republic of Korea},
+               series = {SAC '14}
+}`
     },
   ];

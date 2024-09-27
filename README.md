@@ -16,18 +16,35 @@ To add a publication, follow these steps:
 2. Add an object like the following example:
 
 ```
-   {
-     title: "The role of library versions in Developer-ChatGPT conversations",
-     venue: "MSR 2024 Mining Challenge, 2024",
-     authors: "Rachna Raj, Diego Elias Costa",
-     pdfPathHref: "https://arxiv.org/pdf/2311.07786.pdf",
-     githubLink: "",
-     datasetLink: "",
-     presentationLink: "",
-     year: 2024,
-     type: "Conferences",
-     project:"dependency-management"
-   },
+    {
+      title: "The role of library versions in Developer-ChatGPT conversations",
+      venue: "MSR 2024 Mining Challenge, 2024",
+      authors: "Rachna Raj, Diego Elias Costa",
+      pdfPathHref: "https://arxiv.org/pdf/2401.16340",
+      githubLink: "",
+      datasetLink: "",
+      presentationLink: "",
+      replicationPackageLink: "",
+      videoLink: "",
+      year: 2024,
+      type: "Conferences",
+      project:"dependency-management",
+      citation: `@inproceedings{10.1145/3643991.3645075,
+               author = {Raj, Rachna and Costa, Diego Elias},
+               title = {The role of library versions in Developer-ChatGPT conversations},
+               year = {2024},
+               isbn = {9798400705878},
+               publisher = {Association for Computing Machinery},
+               address = {New York, NY, USA},
+               url = {https://doi.org/10.1145/3643991.3645075},
+               doi = {10.1145/3643991.3645075},
+               booktitle = {Proceedings of the 21st International Conference on Mining Software Repositories},
+               pages = {172–176},
+               numpages = {5},
+               location = {Lisbon, Portugal},
+               series = {MSR '24}
+}`
+    },
 ```
 The values that `type` can have are `Conferences`, `Journals`, or `Thesis`.
 The values that `project` can have are `dependency-management`, `performance-engineering`, `se4ai`, or empty.
@@ -65,6 +82,8 @@ To add a team member to your project, follow these steps:
      details: 'teamInfo/TeamMemberDetails.md'
    },
 ```
+
+In order to write `TeamMemberDetails.md`, you can learn how to write in Mark Down. A good example to follow is `src/components/pages/teamInfo/realise-citizen.md` where you can see the script in that file and its corresponding webpage [here](https://realiselab.github.io/teaminfo/realise-citizen) so you can know how to structure components in webpages using Mark Down.
 
 
 5. **Save All Changes:**

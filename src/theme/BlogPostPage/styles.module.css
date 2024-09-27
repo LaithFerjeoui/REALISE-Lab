@@ -1,0 +1,4 @@
+:global(html.plugin-blog h2), 
+:global(html.plugin-blog.blog-post-page h1) {
+    font-size: 2rem;
+}
