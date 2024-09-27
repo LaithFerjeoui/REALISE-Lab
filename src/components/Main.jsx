@@ -24,7 +24,7 @@ export default function Example() {
 
 
 
-        <div className="w-full flex flex-col md:flex-row md:justify-between mx-auto">
+        <div className="w-full flex flex-col md:flex-row md:justify-between mx-auto px-8">
           <div className="md:w-[60%]  ">
             <p className="relative mt-6 text-lg leading-8 text-gray-600">
               Located in Concordia University in the beautiful city of Montréal,{" "}
@@ -53,7 +53,7 @@ export default function Example() {
             <h2>Meet the Team</h2>
           </div>
         </span>
-        <div className="flex justify-center my-4">
+        <div className="flex justify-center my-4 px-8">
           <img
             src="img/group_picture.jpg"
             alt="Group Picture"
@@ -61,7 +61,7 @@ export default function Example() {
             onClick={() => window.location.href = '/team'}
           />
         </div>
-        <div className="mt-16 relative mx-auto ">
+        <div className="mt-16 relative mx-auto px-8">
           <span className="my-4 relative text-left mb-12 hover:scale-105 duration-150">
             <div className="flex justify-center gap-2">
               <h2>Latest News</h2>
