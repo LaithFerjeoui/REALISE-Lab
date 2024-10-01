@@ -23,8 +23,8 @@ export default function Example() {
   return (
     <Layout>
       <div className="py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
+        <div className="mx-auto lg:flex lg:flex-col lg:justify-center lg:px-[200px] px-6 ">
+          <div className=" max-w-2xl ">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Our team
             </h2>
