@@ -7,9 +7,9 @@ import PublicationsIteration from "../components/PublicationsIteration";
 const Example = () => {
   return (
     <Layout>
-      <div className="py-24 sm:py-16">
-        <div className="mx-auto   lg:px-[200px] px-6">
-          <div className="mx-auto max-w-2xl lg:mx-0 ">
+      <div className="py-24 sm:py-16 max-w-[1400px] flex justify-center pl-24">
+        <div className="mx-auto px-6">
+          <div className="mx-auto lg:mx-0 ">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Our publications
             </h2>

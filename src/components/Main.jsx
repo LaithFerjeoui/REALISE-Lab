@@ -19,7 +19,7 @@ export default function Example() {
         </div>
         <div className="extra-black-space"></div>
       </div>
-      <div className="lg:flex lg:justify-center lg:px-[200px] flex-wrap py-12">
+      <div className="lg:flex lg:justify-center max-w-[1500px] flex justify-center pl-24 flex-wrap py-12 mx-auto">
         <div className="w-full flex flex-col md:flex-row md:justify-between mx-auto px-8">
           <div className="md:w-[60%]  ">
             <p className="relative mt-6 text-lg leading-8 text-gray-600">

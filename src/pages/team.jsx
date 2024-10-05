@@ -22,8 +22,8 @@ const groupedMembers = Object.keys(groupMembersByRole(members)).map((role) => ({
 export default function Example() {
   return (
     <Layout>
-      <div className="py-24 sm:py-32">
-        <div className="mx-auto lg:flex lg:flex-col lg:justify-center lg:px-[200px] px-6 ">
+      <div className="py-20 sm:py-20">
+        <div className="mx-auto lg:flex lg:flex-col lg:justify-center max-w-[1400px] flex justify-center pl-16  ">
           <div className=" max-w-2xl ">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Our team
