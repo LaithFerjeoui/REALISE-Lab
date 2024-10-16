@@ -26,18 +26,25 @@ export default function Example() {
         <div className="w-full flex flex-col md:flex-row md:justify-between mx-auto px-8">
           {/* Left content */}
           <div className="md:w-[60%]">
-            <p className="relative mt-6 text-base md:text-lg leading-6 md:leading-8 text-gray-600">
-              Located in Concordia University in the beautiful city of Montréal, the <b>RE</b>search on <b>A</b>naLytics and <b>I</b>ntelligence for <b>S</b>oftware <b>E</b>ngineering Lab focuses on improving software practices using data analytics and AI.
+            <p className="relative mt-6 text-lg leading-8 text-gray-600">
+              Located in Concordia University in the beautiful city of Montréal,{" "}
+              the <b>RE</b>search on <b>A</b>naLytics and <b>I</b>ntelligence for{" "}
+              <b>S</b>oftware <b>E</b>ngineering Lab is a research group that focuses on studying and developing techniques to help software engineers build better software.
+
+              Overall, we use data analytics and artificial intelligence techniques to improve practices related to software maintenance and evolution. We work on the following software engineering areas:
+
+              <ul className="list-disc ml-5">
+                <li>Software Performance Testing</li>
+                <li>Open-Source Software Development and Dependency Management</li>
+                <li>Software Development Assistants</li>
+                <li>Maintenance and Reliability of Artificial Intelligence-Based Systems</li>
+              </ul>
+
+              This website is a hub for our research activities, publications, and news. We are always looking for new collaborations and partnerships. If you are interested in working with us, please contact us.
             </p>
-            <ul className="list-disc ml-5 mt-4 text-sm md:text-base">
-              <li>Software Performance Testing</li>
-              <li>Open-Source Software Development and Dependency Management</li>
-              <li>Software Development Assistants</li>
-              <li>Maintenance of AI-Based Systems</li>
-            </ul>
           </div>
           {/* Right content */}
-          <div className="md:w-[40%] flex justify-end mt-8 md:mt-0">
+          <div className="md:w-[40%] flex  mt-8 md:mt-0">
             <Tweet />
           </div>
         </div>
