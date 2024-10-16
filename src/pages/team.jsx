@@ -22,8 +22,8 @@ const groupedMembers = Object.keys(groupMembersByRole(members)).map((role) => ({
 export default function Example() {
   return (
     <Layout>
-      <div className="py-20 sm:py-20">
-        <div className="mx-auto lg:flex lg:flex-col lg:justify-center max-w-[1400px] flex justify-center pl-16  ">
+        <div className="py-14 sm:py-14">
+        <div className="mx-auto flex flex-col justify-center max-w-[1400px] px-3 md:px-14  ">
           <div className=" max-w-2xl ">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Our team
@@ -35,7 +35,7 @@ export default function Example() {
      
           <ul
             role="list"
-            className="mt-20 w-full grid-cols-1 gap-x-8 gap-y-16 flex-col list-none justify-start"
+            className="mt-20 w-full grid-cols-1 gap-x-8 gap-y-16 flex-col list-none justify-start pr-[32px]"
           >
             {groupedMembers.map((group) => (
               <div key={group.role} className="mb-8">

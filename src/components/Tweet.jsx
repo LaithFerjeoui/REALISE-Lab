@@ -14,14 +14,16 @@ const TwitterTimeline = () => {
   }, []);
 
   return (
-    <a
-      className="twitter-timeline"
-      data-width="500" 
-      data-height="500" 
-      href="https://twitter.com/DiegoEliasCosta?ref_src=twsrc%5Etfw"
-    >
-      Tweets by Diego Elias Costa Damasceno
-    </a>
+    <div className="relative w-full max-w-[500px] mx-auto">
+      <a
+        className="twitter-timeline"
+        data-width="100%" // Use 100% width to make it responsive
+        data-height="500" // Keep the height fixed, you can adjust this
+        href="https://twitter.com/DiegoEliasCosta?ref_src=twsrc%5Etfw"
+      >
+        Tweets by Diego Elias Costa Damasceno
+      </a>
+    </div>
   );
 };
 
